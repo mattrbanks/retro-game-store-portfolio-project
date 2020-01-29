@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { ProductConsumer } from "../context";
 import { Link } from "react-router-dom";
 import { ButtonContainer } from "./Button";
+import styled from "styled-components";
 
 export default class Details extends Component {
   render() {
@@ -48,11 +49,17 @@ export default class Details extends Component {
                   </p>
                   <p className="text-muted lead">{info}</p>
                   {/* buttons */}
-                  <div>
-                    <Link to="/">
+                  <div className="row">
+                    <Link to="/" className="ml-auto mr-auto">
                       <ButtonContainer>back to products</ButtonContainer>
                     </Link>
+                    <DetailsAnchorWrapper>
+                      <a href="javascript:history.back()">
+                        <ButtonContainer>go back</ButtonContainer>
+                      </a>
+                    </DetailsAnchorWrapper>
                     <ButtonContainer
+                      className="ml-auto mr-auto"
                       cart /* Anywhere this prop is present we will be turning the button yellow. See the Button component for details. The cart prop is passed from this component to other components.*/
                       disabled={inCart ? true : false}
                       onClick={() => {
@@ -72,3 +79,8 @@ export default class Details extends Component {
     );
   }
 }
+
+const DetailsAnchorWrapper = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+`;

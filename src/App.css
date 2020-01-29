@@ -55,3 +55,10 @@ body {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 } */
+
+#sega-logo,
+#nintendo-logo,
+#playstation-logo {
+  width: 100%;
+  height: 100%;
+}

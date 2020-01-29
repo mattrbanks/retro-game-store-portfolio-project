@@ -10,6 +10,10 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
+import SegaGames from "./components/SegaGames";
+import NintendoGames from "./components/NintendoGames";
+import PlaystationGames from "./components/PlaystationGames";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -24,9 +28,13 @@ class App extends Component {
           <Route path="/cart" component={Cart} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/sega-games" component={SegaGames} />
+          <Route path="/nintendo-games" component={NintendoGames} />
+          <Route path="/playstation-games" component={PlaystationGames} />
           <Route component={Default} />
         </Switch>
         <Modal />
+        <Footer />
       </React.Fragment>
     );
   }

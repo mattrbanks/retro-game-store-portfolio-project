@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { ProductConsumer } from "../context";
+import styled from "styled-components";
 
 export default class Search extends Component {
   render() {
@@ -10,7 +11,12 @@ export default class Search extends Component {
           return (
             <div>
               {/* this is new and we are here */}
-              <input class="form-control" type="text" />
+              <SearchWrapper>
+                <input className="form-control" type="text" />
+                <button type="button" class="btn btn-info">
+                  Search
+                </button>
+              </SearchWrapper>
               {/* <input type="text" value={value} onChange={this.handleChange} /> */}
             </div>
           );
@@ -19,3 +25,8 @@ export default class Search extends Component {
     );
   }
 }
+
+const SearchWrapper = styled.div`
+  display: flex;
+  width: 19rem;
+`;
