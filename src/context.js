@@ -18,7 +18,9 @@ class ProductProvider extends Component {
     modalProduct: detailProduct,
     cartSubTotal: 0,
     cartTax: 0,
-    cartTotal: 0
+    cartTotal: 0,
+    searchResults: [], //resulting search object to render in productList
+    search: "" //input from user
   };
   /*we don't want our original data object reference to change so we handle the state this way with copies.*/
   /*lifecycle method. We say this once but can put many methods inside it. Look into this further.*/
@@ -179,7 +181,29 @@ class ProductProvider extends Component {
       };
     });
   };
+
+  updateSearch = event => {
+    this.setState({ search: event.target.value.substr(0, 20) });
+  };
+  searchFilter = () => {
+    let tempProducts = [...this.state.products];
+    let tempSearchResults = [...this.state.searchResults];
+    tempProducts.filter(item => {
+      if (
+        item.title.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1
+      ) {
+        tempSearchResults.push(item);
+      }
+      this.setState(() => {
+        return { searchResults: [...tempSearchResults] };
+      });
+    }); // I am here. Need to reset searchResults for the next search.
+    // return { searchResults: [] };
+  };
+
   render() {
+    console.log(this.state.searchResults);
+    console.log(this.state.search);
     //console.log(this); /* ProductProvider is this. */
     //The value in Context.Provider can be anything, even an object. We are using this.anyMethodName but we could also put the whole method in value as well.
     //Here we are using destructuring so study that more.
@@ -195,7 +219,9 @@ class ProductProvider extends Component {
           increment: this.increment, //The cart component is using the consumer and these four methods will be available in the consumer.
           decrement: this.decrement,
           removeItem: this.removeItem,
-          clearCart: this.clearCart
+          clearCart: this.clearCart,
+          searchFilter: this.searchFilter,
+          updateSearch: this.updateSearch
         }}
       >
         {this.props.children}

@@ -14,6 +14,7 @@ import SegaGames from "./components/SegaGames";
 import NintendoGames from "./components/NintendoGames";
 import PlaystationGames from "./components/PlaystationGames";
 import Footer from "./components/Footer";
+import SearchUserResults from "./components/SearchUserResults";
 
 class App extends Component {
   render() {
@@ -31,6 +32,7 @@ class App extends Component {
           <Route path="/sega-games" component={SegaGames} />
           <Route path="/nintendo-games" component={NintendoGames} />
           <Route path="/playstation-games" component={PlaystationGames} />
+          <Route path="/search-user-results" component={SearchUserResults} />
           <Route component={Default} />
         </Switch>
         <Modal />

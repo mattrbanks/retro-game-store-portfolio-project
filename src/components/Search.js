@@ -1,21 +1,35 @@
 import React, { Component } from "react";
 import { ProductConsumer } from "../context";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export default class Search extends Component {
   render() {
     return (
       <ProductConsumer>
         {value => {
-          const { title } = value.products;
+          const { searchFilter, updateSearch, search } = value;
+
           return (
             <div>
               {/* this is new and we are here */}
               <SearchWrapper>
-                <input className="form-control" type="text" />
-                <button type="button" class="btn btn-info">
-                  Search
-                </button>
+                <input
+                  className="form-control"
+                  type="text"
+                  name="searchInput"
+                  value={search}
+                  onChange={updateSearch}
+                />
+                <Link to="/search-user-results">
+                  <button
+                    type="button"
+                    className="btn btn-info"
+                    onClick={() => searchFilter()}
+                  >
+                    Search
+                  </button>
+                </Link>
               </SearchWrapper>
               {/* <input type="text" value={value} onChange={this.handleChange} /> */}
             </div>
