@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 import { ProductProvider } from "./context";
 import * as serviceWorker from "./serviceWorker";
@@ -14,6 +15,8 @@ ReactDOM.render(
   </ProductProvider>,
   document.getElementById("root")
 );
+
+ReactDOM.render(<Footer />, document.getElementById("footer"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

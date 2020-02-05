@@ -50,7 +50,7 @@ export default class ProductList extends Component {
                 <ButtonContainerGames>
                   <img
                     id="sega-logo"
-                    src={"img/SegaLogo.jpg"}
+                    src={"img/SegaLogo resized.jpg"}
                     alt="product"
                     className="card-img-top"
                   />
@@ -72,7 +72,7 @@ export default class ProductList extends Component {
                 <ButtonContainerGames>
                   <img
                     id="playstation-logo"
-                    src={"img/PlaystationLogo.png"}
+                    src={"img/PlaystationLogo resized.png"}
                     alt="product"
                     className="card-img-top"
                   />

@@ -172,7 +172,7 @@ export const storeProducts = [
     id: 50,
     title: "Android Assault",
     platform: "Sega CD",
-    img: "img2/game-1.jpg",
+    img: "img2/game-1 resized.jpg",
     price: 110,
     company: "Sega",
     info:
@@ -185,7 +185,7 @@ export const storeProducts = [
     id: 51,
     title: "Eternal Champions",
     platform: "Sega CD",
-    img: "img2/game-2.jpg",
+    img: "img2/game-2 resized.jpg",
     price: 35,
     company: "Sega",
     info:
@@ -211,7 +211,7 @@ export const storeProducts = [
     id: 53,
     title: "Lunar - The Silver Star",
     platform: "Sega CD",
-    img: "img2/game-4.jpg",
+    img: "img2/game-4 resized.jpg",
     price: 100,
     company: "Sega",
     info:
@@ -224,7 +224,7 @@ export const storeProducts = [
     id: 54,
     title: "Popful Mail",
     platform: "Sega CD",
-    img: "img2/game-5.jpg",
+    img: "img2/game-5 resized.jpg",
     price: 350,
     company: "Sega",
     info:
@@ -252,7 +252,7 @@ export const storeProducts = [
     platform: "Super Nintendo",
     img: "img3/game-100.jpg",
     price: 90,
-    company: "Sega",
+    company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,

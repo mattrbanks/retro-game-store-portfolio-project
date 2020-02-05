@@ -193,6 +193,16 @@ class ProductProvider extends Component {
         item.title.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1
       ) {
         tempSearchResults.push(item);
+      } else if (
+        item.platform.toLowerCase().indexOf(this.state.search.toLowerCase()) !==
+        -1
+      ) {
+        tempSearchResults.push(item);
+      } else if (
+        item.company.toLowerCase().indexOf(this.state.search.toLowerCase()) !==
+        -1
+      ) {
+        tempSearchResults.push(item);
       }
       this.setState(() => {
         return { searchResults: [...tempSearchResults] };

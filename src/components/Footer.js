@@ -4,9 +4,9 @@ export default class Footer extends Component {
   render() {
     return (
       <React.Fragment>
-        <div>
+        <footer>
           <h1>hello form footer</h1>
-        </div>
+        </footer>
       </React.Fragment>
     );
   }

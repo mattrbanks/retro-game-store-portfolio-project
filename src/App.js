@@ -13,7 +13,6 @@ import Modal from "./components/Modal";
 import SegaGames from "./components/SegaGames";
 import NintendoGames from "./components/NintendoGames";
 import PlaystationGames from "./components/PlaystationGames";
-import Footer from "./components/Footer";
 import SearchUserResults from "./components/SearchUserResults";
 
 class App extends Component {
@@ -36,7 +35,6 @@ class App extends Component {
           <Route component={Default} />
         </Switch>
         <Modal />
-        <Footer />
       </React.Fragment>
     );
   }
