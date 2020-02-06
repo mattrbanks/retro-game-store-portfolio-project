@@ -211,6 +211,14 @@ class ProductProvider extends Component {
     // return { searchResults: [] };
   };
 
+  nextBtnCarousel = () => {
+    return console.log("hello form nextBtnCarousel");
+  };
+
+  prevBtnCarousel = () => {
+    return console.log("hello form prevBtnCarousel");
+  };
+
   render() {
     console.log(this.state.searchResults);
     console.log(this.state.search);
