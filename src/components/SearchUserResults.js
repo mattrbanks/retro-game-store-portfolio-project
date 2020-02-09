@@ -11,7 +11,7 @@ export default class SearchResults extends Component {
         <ProductConsumer>
           {value => {
             //We destructured the state so cart is a property that is included in the destructured state inside value in context.js.
-            const { searchResults } = value;
+            const { searchResults, search } = value;
             //cart is an empty array to start with so the .length array method works here.
             if (searchResults.length > 0) {
               return (
@@ -35,6 +35,8 @@ export default class SearchResults extends Component {
                   </div>
                 </React.Fragment>
               );
+            } else if (search.length > 0 && searchResults.length === 0) {
+              return <NoSearchResults />;
             } else {
               return <NoSearchResults />;
             }

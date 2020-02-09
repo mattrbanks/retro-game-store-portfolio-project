@@ -189,7 +189,7 @@ class ProductProvider extends Component {
 
   searchFilter = () => {
     let tempProducts = [...this.state.products];
-    let tempSearchResults = [...this.state.searchResults];
+    let tempSearchResults = [];
     tempProducts.filter(item => {
       if (
         item.title.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1
@@ -205,8 +205,6 @@ class ProductProvider extends Component {
         -1
       ) {
         tempSearchResults.push(item);
-      } else {
-        return;
       }
       this.setState(() => {
         return { searchResults: [...tempSearchResults] };
@@ -217,7 +215,7 @@ class ProductProvider extends Component {
 
   enterKeyPressed = event => {
     let tempProducts = [...this.state.products];
-    let tempSearchResults = [...this.state.searchResults];
+    let tempSearchResults = [];
     if (event.key === "Enter") {
       tempProducts.filter(item => {
         if (
@@ -250,9 +248,9 @@ class ProductProvider extends Component {
   };
 
   render() {
-    //console.log(this.handleEnterKeyRoute());
+    console.log(this.state.searchResults);
     //console.log(this.state.searchResults);
-    //console.log(this.state.search);
+    console.log(this.state.search);
     //console.log(this.prevBtnCarousel());
     //console.log(this); /* ProductProvider is this. */
     //The value in Context.Provider can be anything, even an object. We are using this.anyMethodName but we could also put the whole method in value as well.

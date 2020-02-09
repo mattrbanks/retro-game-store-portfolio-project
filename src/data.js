@@ -92,13 +92,13 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Atari 2600 Console",
-    platform: "Atari 2600 Model 1",
-    img: "img/console-8.jpg",
-    price: 45,
-    company: "Atari",
+    title: "Sega CD Console",
+    platform: "Sega CD Model 1",
+    img: "img/console-14.jpg",
+    price: 215,
+    company: "Sega",
     info:
-      "Original used Atari 2600 with two joystick controllers and all cables needed for operation. Tested and fully working.",
+      "Original used Sega CD with two controllers and all cables needed for operation. Tested and fully working.",
     inCart: false,
     count: 0,
     total: 0
