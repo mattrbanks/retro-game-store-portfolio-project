@@ -51,7 +51,7 @@ export default class Carousel extends Component {
                     <img
                       src={"img2/game-3.jpg"}
                       className="carousel-images"
-                      id="first-clone"
+                      id="fourth-carousel"
                       alt="SegaLogo"
                     />
                     <img

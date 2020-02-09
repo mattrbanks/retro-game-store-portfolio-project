@@ -4,7 +4,7 @@ import Title from "./Title";
 import { ProductConsumer } from "../context";
 import { ButtonContainerGames } from "./ButtonForGames";
 import { Link } from "react-router-dom";
-import Carousel from "./Carousel";
+import CarouselSlider from "./CarouselSlider";
 
 export default class ProductList extends Component {
   /*we don't need state here unless we want to console.log something*/
@@ -15,7 +15,7 @@ export default class ProductList extends Component {
           <div className="container">
             <Title name="Matt's Retro Games" />
 
-            <Carousel />
+            <CarouselSlider />
           </div>
         </div>
         <div className="container">

@@ -19,7 +19,7 @@ class ProductProvider extends Component {
     cartSubTotal: 0,
     cartTax: 0,
     cartTotal: 0,
-    searchResults: [], //resulting search object to render in productList
+    searchResults: [], //resulting search object to render in SearchUserResults
     search: "" //input from user
   };
   /*we don't want our original data object reference to change so we handle the state this way with copies.*/
@@ -182,9 +182,11 @@ class ProductProvider extends Component {
     });
   };
 
+  //handleChange
   updateSearch = event => {
     this.setState({ search: event.target.value.substr(0, 20) });
   };
+
   searchFilter = () => {
     let tempProducts = [...this.state.products];
     let tempSearchResults = [...this.state.searchResults];
@@ -203,6 +205,8 @@ class ProductProvider extends Component {
         -1
       ) {
         tempSearchResults.push(item);
+      } else {
+        return;
       }
       this.setState(() => {
         return { searchResults: [...tempSearchResults] };
@@ -211,17 +215,45 @@ class ProductProvider extends Component {
     // return { searchResults: [] };
   };
 
-  nextBtnCarousel = () => {
-    return console.log("hello form nextBtnCarousel");
-  };
-
-  prevBtnCarousel = () => {
-    return console.log("hello form prevBtnCarousel");
+  enterKeyPressed = event => {
+    let tempProducts = [...this.state.products];
+    let tempSearchResults = [...this.state.searchResults];
+    if (event.key === "Enter") {
+      tempProducts.filter(item => {
+        if (
+          item.title.toLowerCase().indexOf(this.state.search.toLowerCase()) !==
+          -1
+        ) {
+          tempSearchResults.push(item);
+        } else if (
+          item.platform
+            .toLowerCase()
+            .indexOf(this.state.search.toLowerCase()) !== -1
+        ) {
+          tempSearchResults.push(item);
+        } else if (
+          item.company
+            .toLowerCase()
+            .indexOf(this.state.search.toLowerCase()) !== -1
+        ) {
+          tempSearchResults.push(item);
+        }
+        this.setState(() => {
+          return { searchResults: [...tempSearchResults] };
+        });
+      }); // I am here. Need to reset searchResults for the next search.
+      // return { searchResults: [] };
+    }
+    if (event.key === "Enter") {
+      document.getElementById("search-btn").click();
+    }
   };
 
   render() {
-    console.log(this.state.searchResults);
-    console.log(this.state.search);
+    //console.log(this.handleEnterKeyRoute());
+    //console.log(this.state.searchResults);
+    //console.log(this.state.search);
+    //console.log(this.prevBtnCarousel());
     //console.log(this); /* ProductProvider is this. */
     //The value in Context.Provider can be anything, even an object. We are using this.anyMethodName but we could also put the whole method in value as well.
     //Here we are using destructuring so study that more.
@@ -239,7 +271,9 @@ class ProductProvider extends Component {
           removeItem: this.removeItem,
           clearCart: this.clearCart,
           searchFilter: this.searchFilter,
-          updateSearch: this.updateSearch
+          updateSearch: this.updateSearch,
+          enterKeyPressed: this.enterKeyPressed,
+          handleEnterKeyRoute: this.handleEnterKeyRoute
         }}
       >
         {this.props.children}

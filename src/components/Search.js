@@ -8,7 +8,7 @@ export default class Search extends Component {
     return (
       <ProductConsumer>
         {value => {
-          const { searchFilter, updateSearch, search } = value;
+          const { searchFilter, updateSearch, search, enterKeyPressed } = value;
 
           return (
             <div>
@@ -16,16 +16,19 @@ export default class Search extends Component {
               <SearchWrapper>
                 <input
                   className="form-control"
-                  type="text"
+                  type="search"
                   name="searchInput"
                   value={search}
                   onChange={updateSearch}
+                  onKeyPress={enterKeyPressed}
                 />
                 <Link to="/search-user-results">
                   <button
+                    id="search-btn"
                     type="button"
+                    disabled={search === "" ? true : false}
                     className="btn btn-info"
-                    onClick={() => searchFilter()}
+                    onClick={searchFilter}
                   >
                     Search
                   </button>
