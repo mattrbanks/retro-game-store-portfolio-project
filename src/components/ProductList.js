@@ -26,7 +26,7 @@ export default class ProductList extends Component {
         </div>
         <div className="py-5">
           <div className="container">
-            <Title name="our" title=" Consoles" />
+            <Title name="our" title=" consoles" />
 
             <div className="row">
               <ProductConsumer>
@@ -45,7 +45,7 @@ export default class ProductList extends Component {
         </div>
         <div className="py-5">
           <div className="container">
-            <Title name="Games" />
+            <Title name="our" title="games" />
             <div className="row">
               <Link to="/sega-games" className="ml-auto mr-auto">
                 <ButtonContainerGames>
