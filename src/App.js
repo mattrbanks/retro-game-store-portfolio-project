@@ -14,6 +14,7 @@ import SegaGames from "./components/SegaGames";
 import NintendoGames from "./components/NintendoGames";
 import PlaystationGames from "./components/PlaystationGames";
 import SearchUserResults from "./components/SearchUserResults";
+import ButtonToTop from "./components/ButtonToTop";
 
 class App extends Component {
   render() {
@@ -35,6 +36,7 @@ class App extends Component {
           <Route component={Default} />
         </Switch>
         <Modal />
+        <ButtonToTop />
       </React.Fragment>
     );
   }

@@ -6,6 +6,10 @@
   --mainYellow: #ffa400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Oswald", sans-serif !important; /*bootstrap override if not !important*/
   background: var(--mainWhite) !important;
@@ -47,14 +51,16 @@ body {
 .btn-black {
   background: transparent;
   text-transform: capitalize;
-  font-size: 0.8rem !important;
+  font-size: 0.8rem !important; /*bootstrap override if not !important*/
   color: var(--mainDark);
   border-radius: 0 !important;
   border: 0.1rem solid var(--mainDark) !important;
 }
 
 .btn-black:hover {
-  background: var(--mainDark) !important;
+  background: var(
+    --mainDark
+  ) !important; /*bootstrap override if not !important*/
   color: var(--mainWhite) !important;
 }
 
@@ -63,17 +69,6 @@ body {
   font-size: 1.2rem;
   color: var(--mainYellow);
 }
-
-/* footer {
-  position: sticky;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  color: red;
-  text-align: center;
-  height: 5vh;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-} */
 
 #sega-logo,
 #nintendo-logo,
