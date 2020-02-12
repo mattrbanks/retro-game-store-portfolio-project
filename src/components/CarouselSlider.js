@@ -8,7 +8,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-4 resized.jpg"}
+            src={"img2/game-52.jpg"}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -31,7 +31,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-1 resized.jpg"}
+            src={"img2/game-150.jpg"}
             alt="Third slide"
           />
 
@@ -59,7 +59,91 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-6 resized.jpg"}
+            src={"img2/game-151.jpg"}
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Fifth slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={"img2/game-100 alt.jpg"}
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Fifth slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={"img2/game-152.jpg"}
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Fifth slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={"img2/game-200.jpg"}
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Fifth slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={"img2/game-201.jpg"}
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Fifth slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={"img2/game-101.jpg"}
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Fifth slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={"img2/game-153.jpg"}
             alt="Third slide"
           />
 
