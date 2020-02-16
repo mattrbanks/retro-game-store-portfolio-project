@@ -11,22 +11,22 @@ export default class CarouselSlider extends Component {
             src={"img2/game-52.jpg"}
             alt="First slide"
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={"img2/game-5 resized.jpg"}
-            alt="Third slide"
+            alt="Second slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -35,124 +35,124 @@ export default class CarouselSlider extends Component {
             alt="Third slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Third slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={"img2/game-3.jpg"}
-            alt="Third slide"
+            alt="Fourth slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Fourth slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={"img2/game-151.jpg"}
-            alt="Third slide"
+            alt="Fifth slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Fifth slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={"img2/game-100 alt.jpg"}
-            alt="Third slide"
+            alt="Sixth slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Fifth slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={"img2/game-152.jpg"}
-            alt="Third slide"
+            alt="Seventh slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Fifth slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={"img2/game-200.jpg"}
-            alt="Third slide"
+            alt="Eighth slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Fifth slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={"img2/game-201.jpg"}
-            alt="Third slide"
+            alt="Ninth slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Fifth slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={"img2/game-101.jpg"}
-            alt="Third slide"
+            alt="Tenth slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Fifth slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={"img2/game-153.jpg"}
-            alt="Third slide"
+            alt="Eleventh slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Fifth slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
     );

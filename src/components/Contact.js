@@ -26,7 +26,7 @@ export default class Contact extends Component {
             never let it go. -Matt
           </h2>
         </div>
-        <div className="row">
+        <div className="row contact-icons">
           <div>
             <a
               id="profile-link"
@@ -92,24 +92,32 @@ const ContactContainer = styled.div`
   #git-hub-icon {
     text-shadow: 0.3rem 0.3rem red;
     color: black;
+    margin: auto;
   }
 
   #linkedin-icon {
     text-shadow: 0.3rem 0.3rem orange;
     color: black;
+    margin: auto;
   }
 
   #email-icon {
     text-shadow: 0.3rem 0.3rem yellow;
     color: black;
+    margin: auto;
   }
 
   #resume-icon {
     text-shadow: 0.3rem 0.3rem green;
     color: black;
+    margin: auto;
   }
 
   .shop-message {
     margin-bottom: 5rem;
+  }
+
+  .contact-icons {
+    padding-bottom: 6rem;
   }
 `;

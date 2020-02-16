@@ -30,4 +30,5 @@ const ButtonToTopWrapper = styled.a`
   line-height: 1rem;
   font-size: 3rem;
   color: #f3f3f3;
+  opacity: 0.5;
 `;

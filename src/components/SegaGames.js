@@ -48,6 +48,66 @@ export default class SegaGames extends Component {
               </div>
             </div>
           </div>
+
+          <div className="py-5">
+            <div className="container">
+              <Title name="Sega Dreamcast" title=" Games" />
+
+              <div className="row">
+                <ProductConsumer>
+                  {value => {
+                    return value.products.map(product => {
+                      if (product.id >= 150 && product.id < 200) {
+                        return <Product key={product.id} product={product} />;
+                      } else {
+                        return null;
+                      }
+                    });
+                  }}
+                </ProductConsumer>
+              </div>
+            </div>
+          </div>
+
+          <div className="py-5">
+            <div className="container">
+              <Title name="Sega Saturn" title=" Games" />
+
+              <div className="row">
+                <ProductConsumer>
+                  {value => {
+                    return value.products.map(product => {
+                      if (product.id >= 200 && product.id < 250) {
+                        return <Product key={product.id} product={product} />;
+                      } else {
+                        return null;
+                      }
+                    });
+                  }}
+                </ProductConsumer>
+              </div>
+            </div>
+          </div>
+
+          <div className="py-5">
+            <div className="container">
+              <Title name="Sega Master System" title=" Games" />
+
+              <div className="row">
+                <ProductConsumer>
+                  {value => {
+                    return value.products.map(product => {
+                      if (product.id >= 250 && product.id < 300) {
+                        return <Product key={product.id} product={product} />;
+                      } else {
+                        return null;
+                      }
+                    });
+                  }}
+                </ProductConsumer>
+              </div>
+            </div>
+          </div>
         </div>
       </React.Fragment>
     );

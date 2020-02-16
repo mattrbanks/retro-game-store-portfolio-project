@@ -8,44 +8,42 @@ export default class PlaystationGames extends Component {
     return (
       <React.Fragment>
         <div>
-          <div>
-            <div className="py-5">
-              <div className="container">
-                <Title name="Playstation" title=" Games" />
+          <div className="py-5">
+            <div className="container">
+              <Title name="Playstation" title=" Games" />
 
-                <div className="row">
-                  <ProductConsumer>
-                    {value => {
-                      return value.products.map(product => {
-                        if (product.id >= 200 && product.id < 250) {
-                          return <Product key={product.id} product={product} />;
-                        } else {
-                          return null;
-                        }
-                      });
-                    }}
-                  </ProductConsumer>
-                </div>
+              <div className="row">
+                <ProductConsumer>
+                  {value => {
+                    return value.products.map(product => {
+                      if (product.id >= 600 && product.id < 650) {
+                        return <Product key={product.id} product={product} />;
+                      } else {
+                        return null;
+                      }
+                    });
+                  }}
+                </ProductConsumer>
               </div>
             </div>
+          </div>
 
-            <div className="py-5">
-              <div className="container">
-                <Title name="Playstation two" title=" Games" />
+          <div className="py-5">
+            <div className="container">
+              <Title name="Playstation two" title=" Games" />
 
-                <div className="row">
-                  <ProductConsumer>
-                    {value => {
-                      return value.products.map(product => {
-                        if (product.id >= 250 && product.id < 300) {
-                          return <Product key={product.id} product={product} />;
-                        } else {
-                          return null;
-                        }
-                      });
-                    }}
-                  </ProductConsumer>
-                </div>
+              <div className="row">
+                <ProductConsumer>
+                  {value => {
+                    return value.products.map(product => {
+                      if (product.id >= 650 && product.id < 700) {
+                        return <Product key={product.id} product={product} />;
+                      } else {
+                        return null;
+                      }
+                    });
+                  }}
+                </ProductConsumer>
               </div>
             </div>
           </div>
