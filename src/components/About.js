@@ -18,7 +18,7 @@ export default class About extends Component {
               Nintendo, and Playstation. All games and consoles are complete in
               box and as a result our supply is limited. We are strictly an
               online store. We hope we can help scratch that nostalgia itch and
-              that you leave our site satisfied. Happy gaming!{" "}
+              we also hope that you leave our site satisfied. Happy gaming!{" "}
             </h4>
           </div>
         </div>

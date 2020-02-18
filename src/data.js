@@ -432,7 +432,7 @@ export const storeProducts = [
     id: 150,
     title: "Contra Hard Corps",
     platform: "Sega Dreamcast",
-    img: "img2/game-50.jpg",
+    img: "img2/game-150.jpg",
     price: 90,
     company: "Sega, Konami",
     info:
@@ -445,7 +445,7 @@ export const storeProducts = [
     id: 151,
     title: "Contra Hard Corps",
     platform: "Sega Dreamcast",
-    img: "img2/game-50.jpg",
+    img: "img2/game-151.jpg",
     price: 90,
     company: "Sega, Konami",
     info:
@@ -458,7 +458,7 @@ export const storeProducts = [
     id: 152,
     title: "Contra Hard Corps",
     platform: "Sega Dreamcast",
-    img: "img2/game-50.jpg",
+    img: "img2/game-152.jpg",
     price: 90,
     company: "Sega, Konami",
     info:
@@ -471,7 +471,7 @@ export const storeProducts = [
     id: 153,
     title: "Contra Hard Corps",
     platform: "Sega Dreamcast",
-    img: "img2/game-50.jpg",
+    img: "img2/game-153.jpg",
     price: 90,
     company: "Sega, Konami",
     info:
@@ -484,7 +484,7 @@ export const storeProducts = [
     id: 154,
     title: "Contra Hard Corps",
     platform: "Sega Dreamcast",
-    img: "img2/game-50.jpg",
+    img: "img2/game-154.jpg",
     price: 90,
     company: "Sega, Konami",
     info:
@@ -497,7 +497,7 @@ export const storeProducts = [
     id: 155,
     title: "Contra Hard Corps",
     platform: "Sega Dreamcast",
-    img: "img2/game-50.jpg",
+    img: "img2/game-155.jpg",
     price: 90,
     company: "Sega, Konami",
     info:
@@ -510,7 +510,7 @@ export const storeProducts = [
     id: 156,
     title: "Contra Hard Corps",
     platform: "Sega Dreamcast",
-    img: "img2/game-50.jpg",
+    img: "img2/game-156.jpg",
     price: 90,
     company: "Sega, Konami",
     info:
@@ -523,7 +523,7 @@ export const storeProducts = [
     id: 157,
     title: "Contra Hard Corps",
     platform: "Sega Dreamcast",
-    img: "img2/game-50.jpg",
+    img: "img2/game-157.jpg",
     price: 90,
     company: "Sega, Konami",
     info:
@@ -536,7 +536,7 @@ export const storeProducts = [
     id: 158,
     title: "Contra Hard Corps",
     platform: "Sega Dreamcast",
-    img: "img2/game-50.jpg",
+    img: "img2/game-158.jpg",
     price: 90,
     company: "Sega, Konami",
     info:
@@ -549,7 +549,7 @@ export const storeProducts = [
     id: 159,
     title: "Contra Hard Corps",
     platform: "Sega Dreamcast",
-    img: "img2/game-50.jpg",
+    img: "img2/game-159.jpg",
     price: 90,
     company: "Sega, Konami",
     info:
@@ -561,112 +561,8 @@ export const storeProducts = [
   {
     id: 200,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
-    price: 90,
-    company: "Nintendo",
-    info:
-      "Original used copy like new complete in box. Tested and fully working.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-  {
-    id: 200,
-    title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
-    price: 90,
-    company: "Nintendo",
-    info:
-      "Original used copy like new complete in box. Tested and fully working.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-  {
-    id: 200,
-    title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
-    price: 90,
-    company: "Nintendo",
-    info:
-      "Original used copy like new complete in box. Tested and fully working.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-  {
-    id: 200,
-    title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
-    price: 90,
-    company: "Nintendo",
-    info:
-      "Original used copy like new complete in box. Tested and fully working.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-  {
-    id: 200,
-    title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
-    price: 90,
-    company: "Nintendo",
-    info:
-      "Original used copy like new complete in box. Tested and fully working.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-  {
-    id: 200,
-    title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
-    price: 90,
-    company: "Nintendo",
-    info:
-      "Original used copy like new complete in box. Tested and fully working.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-  {
-    id: 200,
-    title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
-    price: 90,
-    company: "Nintendo",
-    info:
-      "Original used copy like new complete in box. Tested and fully working.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-  {
-    id: 200,
-    title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
-    price: 90,
-    company: "Nintendo",
-    info:
-      "Original used copy like new complete in box. Tested and fully working.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-  {
-    id: 200,
-    title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Sega Saturn",
+    img: "img2/game-200.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -677,9 +573,113 @@ export const storeProducts = [
   },
   {
     id: 201,
+    title: "The Legend Of Zelda - A Link To The Past",
+    platform: "Sega Saturn",
+    img: "img2/game-201.jpg",
+    price: 90,
+    company: "Nintendo",
+    info:
+      "Original used copy like new complete in box. Tested and fully working.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 202,
+    title: "The Legend Of Zelda - A Link To The Past",
+    platform: "Sega Saturn",
+    img: "img2/game-202.jpg",
+    price: 90,
+    company: "Nintendo",
+    info:
+      "Original used copy like new complete in box. Tested and fully working.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 203,
+    title: "The Legend Of Zelda - A Link To The Past",
+    platform: "Sega Saturn",
+    img: "img2/game-203.jpg",
+    price: 90,
+    company: "Nintendo",
+    info:
+      "Original used copy like new complete in box. Tested and fully working.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 204,
+    title: "The Legend Of Zelda - A Link To The Past",
+    platform: "Sega Saturn",
+    img: "img2/game-204.jpg",
+    price: 90,
+    company: "Nintendo",
+    info:
+      "Original used copy like new complete in box. Tested and fully working.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 205,
+    title: "The Legend Of Zelda - A Link To The Past",
+    platform: "Sega Saturn",
+    img: "img2/game-205.jpg",
+    price: 90,
+    company: "Nintendo",
+    info:
+      "Original used copy like new complete in box. Tested and fully working.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 206,
+    title: "The Legend Of Zelda - A Link To The Past",
+    platform: "Sega Saturn",
+    img: "img2/game-206.jpg",
+    price: 90,
+    company: "Nintendo",
+    info:
+      "Original used copy like new complete in box. Tested and fully working.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 207,
+    title: "The Legend Of Zelda - A Link To The Past",
+    platform: "Sega Saturn",
+    img: "img2/game-207.jpg",
+    price: 90,
+    company: "Nintendo",
+    info:
+      "Original used copy like new complete in box. Tested and fully working.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 208,
+    title: "The Legend Of Zelda - A Link To The Past",
+    platform: "Sega Saturn",
+    img: "img2/game-208.jpg",
+    price: 90,
+    company: "Nintendo",
+    info:
+      "Original used copy like new complete in box. Tested and fully working.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 209,
     title: "Gyruss",
-    platform: "Nintendo Entertainment System",
-    img: "img2/game-150.jpg",
+    platform: "Sega Saturn",
+    img: "img2/game-209.jpg",
     price: 30,
     company: "Nintendo",
     info:
@@ -691,8 +691,8 @@ export const storeProducts = [
   {
     id: 250,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Sega Master System",
+    img: "img2/game-250.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -704,8 +704,8 @@ export const storeProducts = [
   {
     id: 251,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Sega Master System",
+    img: "img2/game-251.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -717,8 +717,8 @@ export const storeProducts = [
   {
     id: 252,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Sega Master System",
+    img: "img2/game-252.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -730,8 +730,8 @@ export const storeProducts = [
   {
     id: 253,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Sega Master System",
+    img: "img2/game-253.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -743,8 +743,8 @@ export const storeProducts = [
   {
     id: 254,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Sega Master System",
+    img: "img2/game-254.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -756,8 +756,8 @@ export const storeProducts = [
   {
     id: 255,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Sega Master System",
+    img: "img2/game-255.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -769,8 +769,8 @@ export const storeProducts = [
   {
     id: 256,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Sega Master System",
+    img: "img2/game-256.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -782,8 +782,8 @@ export const storeProducts = [
   {
     id: 257,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Sega Master System",
+    img: "img2/game-257.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -795,8 +795,8 @@ export const storeProducts = [
   {
     id: 258,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Sega Master System",
+    img: "img2/game-258.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -808,8 +808,8 @@ export const storeProducts = [
   {
     id: 259,
     title: "Gyruss",
-    platform: "Nintendo Entertainment System",
-    img: "img2/game-150.jpg",
+    platform: "Sega Master System",
+    img: "img2/game-259.jpg",
     price: 30,
     company: "Nintendo",
     info:
@@ -822,7 +822,7 @@ export const storeProducts = [
     id: 300,
     title: "The Legend Of Zelda - A Link To The Past",
     platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    img: "img2/game-300 alt.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -835,7 +835,7 @@ export const storeProducts = [
     id: 301,
     title: "The Legend Of Zelda - A Link To The Past",
     platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    img: "img2/game-301.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -848,7 +848,7 @@ export const storeProducts = [
     id: 302,
     title: "The Legend Of Zelda - A Link To The Past",
     platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    img: "img2/game-302.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -861,7 +861,7 @@ export const storeProducts = [
     id: 303,
     title: "The Legend Of Zelda - A Link To The Past",
     platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    img: "img2/game-303.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -874,7 +874,7 @@ export const storeProducts = [
     id: 304,
     title: "The Legend Of Zelda - A Link To The Past",
     platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    img: "img2/game-304.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -887,7 +887,7 @@ export const storeProducts = [
     id: 305,
     title: "The Legend Of Zelda - A Link To The Past",
     platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    img: "img2/game-305.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -900,7 +900,7 @@ export const storeProducts = [
     id: 306,
     title: "The Legend Of Zelda - A Link To The Past",
     platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    img: "img2/game-306.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -913,7 +913,7 @@ export const storeProducts = [
     id: 307,
     title: "The Legend Of Zelda - A Link To The Past",
     platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    img: "img2/game-307.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -926,7 +926,7 @@ export const storeProducts = [
     id: 308,
     title: "The Legend Of Zelda - A Link To The Past",
     platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    img: "img2/game-308.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -938,8 +938,8 @@ export const storeProducts = [
   {
     id: 309,
     title: "Gyruss",
-    platform: "Nintendo Entertainment System",
-    img: "img2/game-150.jpg",
+    platform: "Super Nintendo",
+    img: "img2/game-309.jpg",
     price: 30,
     company: "Nintendo",
     info:
@@ -951,8 +951,8 @@ export const storeProducts = [
   {
     id: 350,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Entertainment System",
+    img: "img2/game-350.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -964,8 +964,8 @@ export const storeProducts = [
   {
     id: 351,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Entertainment System",
+    img: "img2/game-351.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -977,8 +977,8 @@ export const storeProducts = [
   {
     id: 352,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Entertainment System",
+    img: "img2/game-352.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -990,8 +990,8 @@ export const storeProducts = [
   {
     id: 353,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Entertainment System",
+    img: "img2/game-353.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1003,8 +1003,8 @@ export const storeProducts = [
   {
     id: 354,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Entertainment System",
+    img: "img2/game-354.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1016,8 +1016,8 @@ export const storeProducts = [
   {
     id: 355,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Entertainment System",
+    img: "img2/game-355.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1029,8 +1029,8 @@ export const storeProducts = [
   {
     id: 356,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Entertainment System",
+    img: "img2/game-356.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1042,8 +1042,8 @@ export const storeProducts = [
   {
     id: 357,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Entertainment System",
+    img: "img2/game-357.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1055,8 +1055,8 @@ export const storeProducts = [
   {
     id: 358,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Entertainment System",
+    img: "img2/game-358.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1069,7 +1069,7 @@ export const storeProducts = [
     id: 359,
     title: "Gyruss",
     platform: "Nintendo Entertainment System",
-    img: "img2/game-150.jpg",
+    img: "img2/game-359.jpg",
     price: 30,
     company: "Nintendo",
     info:
@@ -1081,8 +1081,8 @@ export const storeProducts = [
   {
     id: 400,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Gamecube",
+    img: "img2/game-400.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1094,8 +1094,8 @@ export const storeProducts = [
   {
     id: 401,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Gamecube",
+    img: "img2/game-401.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1107,8 +1107,8 @@ export const storeProducts = [
   {
     id: 402,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Gamecube",
+    img: "img2/game-402.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1120,8 +1120,8 @@ export const storeProducts = [
   {
     id: 403,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Gamecube",
+    img: "img2/game-403.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1133,8 +1133,8 @@ export const storeProducts = [
   {
     id: 404,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Gamecube",
+    img: "img2/game-404.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1146,8 +1146,8 @@ export const storeProducts = [
   {
     id: 405,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Gamecube",
+    img: "img2/game-405.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1159,8 +1159,8 @@ export const storeProducts = [
   {
     id: 406,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Gamecube",
+    img: "img2/game-406.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1172,8 +1172,8 @@ export const storeProducts = [
   {
     id: 407,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Gamecube",
+    img: "img2/game-407.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1185,8 +1185,8 @@ export const storeProducts = [
   {
     id: 408,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Gamecube",
+    img: "img2/game-408.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1198,8 +1198,8 @@ export const storeProducts = [
   {
     id: 409,
     title: "Gyruss",
-    platform: "Nintendo Entertainment System",
-    img: "img2/game-150.jpg",
+    platform: "Nintendo Gamecube",
+    img: "img2/game-409.jpg",
     price: 30,
     company: "Nintendo",
     info:
@@ -1211,8 +1211,8 @@ export const storeProducts = [
   {
     id: 450,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo 64",
+    img: "img2/game-450.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1224,8 +1224,8 @@ export const storeProducts = [
   {
     id: 451,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo 64",
+    img: "img2/game-451.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1237,8 +1237,8 @@ export const storeProducts = [
   {
     id: 452,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo 64",
+    img: "img2/game-452.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1250,8 +1250,8 @@ export const storeProducts = [
   {
     id: 453,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo 64",
+    img: "img2/game-453.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1263,8 +1263,8 @@ export const storeProducts = [
   {
     id: 454,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo 64",
+    img: "img2/game-454.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1276,8 +1276,8 @@ export const storeProducts = [
   {
     id: 455,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo 64",
+    img: "img2/game-455.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1289,8 +1289,8 @@ export const storeProducts = [
   {
     id: 456,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo 64",
+    img: "img2/game-456.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1302,8 +1302,8 @@ export const storeProducts = [
   {
     id: 457,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo 64",
+    img: "img2/game-457.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1315,8 +1315,8 @@ export const storeProducts = [
   {
     id: 458,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo 64",
+    img: "img2/game-458.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1328,8 +1328,8 @@ export const storeProducts = [
   {
     id: 459,
     title: "Gyruss",
-    platform: "Nintendo Entertainment System",
-    img: "img2/game-150.jpg",
+    platform: "Nintendo 64",
+    img: "img2/game-459.jpg",
     price: 30,
     company: "Nintendo",
     info:
@@ -1341,8 +1341,8 @@ export const storeProducts = [
   {
     id: 500,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Famicom",
+    img: "img2/game-500.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1354,8 +1354,8 @@ export const storeProducts = [
   {
     id: 501,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Famicom",
+    img: "img2/game-501.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1367,8 +1367,8 @@ export const storeProducts = [
   {
     id: 502,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Famicom",
+    img: "img2/game-502.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1380,8 +1380,8 @@ export const storeProducts = [
   {
     id: 503,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Famicom",
+    img: "img2/game-503.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1393,8 +1393,8 @@ export const storeProducts = [
   {
     id: 504,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Famicom",
+    img: "img2/game-504.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1406,8 +1406,8 @@ export const storeProducts = [
   {
     id: 505,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Famicom",
+    img: "img2/game-505.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1419,8 +1419,8 @@ export const storeProducts = [
   {
     id: 506,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Famicom",
+    img: "img2/game-506.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1432,8 +1432,8 @@ export const storeProducts = [
   {
     id: 507,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Famicom",
+    img: "img2/game-507.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1445,8 +1445,8 @@ export const storeProducts = [
   {
     id: 508,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Famicom",
+    img: "img2/game-508.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1458,8 +1458,8 @@ export const storeProducts = [
   {
     id: 509,
     title: "Gyruss",
-    platform: "Nintendo Entertainment System",
-    img: "img2/game-150.jpg",
+    platform: "Nintendo Famicom",
+    img: "img2/game-509.jpg",
     price: 30,
     company: "Nintendo",
     info:
@@ -1471,8 +1471,8 @@ export const storeProducts = [
   {
     id: 550,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Wii",
+    img: "img2/game-550.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1484,8 +1484,8 @@ export const storeProducts = [
   {
     id: 551,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Wii",
+    img: "img2/game-551.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1497,8 +1497,8 @@ export const storeProducts = [
   {
     id: 552,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Wii",
+    img: "img2/game-552.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1510,8 +1510,8 @@ export const storeProducts = [
   {
     id: 553,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Wii",
+    img: "img2/game-553.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1523,8 +1523,8 @@ export const storeProducts = [
   {
     id: 554,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Wii",
+    img: "img2/game-554.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1536,8 +1536,8 @@ export const storeProducts = [
   {
     id: 555,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Wii",
+    img: "img2/game-555.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1549,8 +1549,8 @@ export const storeProducts = [
   {
     id: 556,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Wii",
+    img: "img2/game-556.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1562,8 +1562,8 @@ export const storeProducts = [
   {
     id: 557,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Wii",
+    img: "img2/game-557.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1575,8 +1575,8 @@ export const storeProducts = [
   {
     id: 558,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Nintendo Wii",
+    img: "img2/game-558.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1588,8 +1588,8 @@ export const storeProducts = [
   {
     id: 559,
     title: "Gyruss",
-    platform: "Nintendo Entertainment System",
-    img: "img2/game-150.jpg",
+    platform: "Nintendo Wii",
+    img: "img2/game-559.jpg",
     price: 30,
     company: "Nintendo",
     info:
@@ -1601,8 +1601,8 @@ export const storeProducts = [
   {
     id: 600,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation",
+    img: "img2/game-600.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1614,8 +1614,8 @@ export const storeProducts = [
   {
     id: 601,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation",
+    img: "img2/game-601.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1627,8 +1627,8 @@ export const storeProducts = [
   {
     id: 602,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation",
+    img: "img2/game-602.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1640,8 +1640,8 @@ export const storeProducts = [
   {
     id: 603,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation",
+    img: "img2/game-603.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1653,8 +1653,8 @@ export const storeProducts = [
   {
     id: 604,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation",
+    img: "img2/game-604.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1666,8 +1666,8 @@ export const storeProducts = [
   {
     id: 605,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation",
+    img: "img2/game-605.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1679,8 +1679,8 @@ export const storeProducts = [
   {
     id: 606,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation",
+    img: "img2/game-606.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1692,8 +1692,8 @@ export const storeProducts = [
   {
     id: 607,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation",
+    img: "img2/game-607.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1705,8 +1705,8 @@ export const storeProducts = [
   {
     id: 608,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation",
+    img: "img2/game-608.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1718,8 +1718,8 @@ export const storeProducts = [
   {
     id: 609,
     title: "Gyruss",
-    platform: "Nintendo Entertainment System",
-    img: "img2/game-150.jpg",
+    platform: "Playstation",
+    img: "img2/game-609.jpg",
     price: 30,
     company: "Nintendo",
     info:
@@ -1731,8 +1731,8 @@ export const storeProducts = [
   {
     id: 650,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation 2",
+    img: "img2/game-650.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1744,8 +1744,8 @@ export const storeProducts = [
   {
     id: 651,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation 2",
+    img: "img2/game-651.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1757,8 +1757,8 @@ export const storeProducts = [
   {
     id: 652,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation 2",
+    img: "img2/game-652.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1770,8 +1770,8 @@ export const storeProducts = [
   {
     id: 653,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation 2",
+    img: "img2/game-653.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1783,8 +1783,8 @@ export const storeProducts = [
   {
     id: 654,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation 2",
+    img: "img2/game-654.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1796,8 +1796,8 @@ export const storeProducts = [
   {
     id: 655,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation 2",
+    img: "img2/game-655.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1809,8 +1809,8 @@ export const storeProducts = [
   {
     id: 656,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation 2",
+    img: "img2/game-656.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1822,8 +1822,8 @@ export const storeProducts = [
   {
     id: 657,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation 2",
+    img: "img2/game-657.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1835,8 +1835,8 @@ export const storeProducts = [
   {
     id: 658,
     title: "The Legend Of Zelda - A Link To The Past",
-    platform: "Super Nintendo",
-    img: "img2/game-100.jpg",
+    platform: "Playstation 2",
+    img: "img2/game-658.jpg",
     price: 90,
     company: "Nintendo",
     info:
@@ -1848,8 +1848,8 @@ export const storeProducts = [
   {
     id: 659,
     title: "Gyruss",
-    platform: "Nintendo Entertainment System",
-    img: "img2/game-150.jpg",
+    platform: "Playstation 2",
+    img: "img2/game-659.jpg",
     price: 30,
     company: "Nintendo",
     info:

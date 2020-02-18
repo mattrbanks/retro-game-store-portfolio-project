@@ -8,15 +8,16 @@ export default class Contact extends Component {
         <div className="row shop-message  contact">
           <h1>
             If you have any problems with your purchase, we will be happy to
-            replace your product with free shipping. Just mail it back to us
-            with the reason for the return.
+            replace your product with free shipping or give you a full refund if
+            the product is out of stock. Just mail it back to us with the reason
+            for the return.
           </h1>
         </div>
         <div className="row shop-message">
           <h2>
             ADDRESS:
             <br />
-            1049 Barnes Avenue, Cincinnati, OH, 45223
+            2020 Video Avenue, Gamesville, CT, 54321
           </h2>
         </div>
         <div className="row shop-message">
@@ -26,6 +27,7 @@ export default class Contact extends Component {
             never let it go. -Matt
           </h2>
         </div>
+        <h2>Contact Matt:</h2>
         <div className="row contact-icons">
           <div>
             <a

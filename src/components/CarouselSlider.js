@@ -31,7 +31,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-150.jpg"}
+            src={"img2/game-350.jpg"}
             alt="Third slide"
           />
 
@@ -59,7 +59,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-151.jpg"}
+            src={"img2/game-351.jpg"}
             alt="Fifth slide"
           />
 
@@ -73,7 +73,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-100 alt.jpg"}
+            src={"img2/game-300 alt.jpg"}
             alt="Sixth slide"
           />
 
@@ -87,7 +87,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-152.jpg"}
+            src={"img2/game-352.jpg"}
             alt="Seventh slide"
           />
 
@@ -101,7 +101,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-200.jpg"}
+            src={"img2/game-600.jpg"}
             alt="Eighth slide"
           />
 
@@ -115,7 +115,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-201.jpg"}
+            src={"img2/game-601.jpg"}
             alt="Ninth slide"
           />
 
@@ -129,7 +129,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-101.jpg"}
+            src={"img2/game-301.jpg"}
             alt="Tenth slide"
           />
 
@@ -143,7 +143,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-153.jpg"}
+            src={"img2/game-353.jpg"}
             alt="Eleventh slide"
           />
 

@@ -2,13 +2,37 @@ import React, { Component } from "react";
 import Product from "./Product";
 import Title from "./Title";
 import { ProductConsumer } from "../context";
+import styled from "styled-components";
+import ScrollToTopOnMount from "./ScrollToTopOnMount";
 
 export default class NintendoGames extends Component {
   render() {
     return (
-      <React.Fragment>
+      <NintendoGamesWrapper>
+        <ScrollToTopOnMount />
         <div>
-          <div className="py-5">
+          <ul id="nintendo-games-nav">
+            <li>
+              <a href="#super-nintendo">SNES</a>
+            </li>
+            <li>
+              <a href="#nin-ent-sys">NES</a>
+            </li>
+            <li>
+              <a href="#nin-gamecube">Gamecube</a>
+            </li>
+            <li>
+              <a href="#nin-64">Nintendo 64</a>
+            </li>
+            <li>
+              <a href="#nin-famicom">Famicom</a>
+            </li>
+            <li>
+              <a href="#nin-wii">Wii</a>
+            </li>
+          </ul>
+
+          <div id="super-nintendo" className="py-5">
             <div className="container">
               <Title name="Super Nintendo" title=" Games" />
 
@@ -28,7 +52,7 @@ export default class NintendoGames extends Component {
             </div>
           </div>
 
-          <div className="py-5">
+          <div id="nin-ent-sys" className="py-5">
             <div className="container">
               <Title name="Nintendo Entertainment System" title=" Games" />
 
@@ -48,7 +72,7 @@ export default class NintendoGames extends Component {
             </div>
           </div>
 
-          <div className="py-5">
+          <div id="nin-gamecube" className="py-5">
             <div className="container">
               <Title name="Nintendo Gamecube" title=" Games" />
 
@@ -68,7 +92,7 @@ export default class NintendoGames extends Component {
             </div>
           </div>
 
-          <div className="py-5">
+          <div id="nin-64" className="py-5">
             <div className="container">
               <Title name="Nintendo 64" title=" Games" />
 
@@ -88,7 +112,7 @@ export default class NintendoGames extends Component {
             </div>
           </div>
 
-          <div className="py-5">
+          <div id="nin-famicom" className="py-5">
             <div className="container">
               <Title name="Nintendo Famicom" title=" Games" />
 
@@ -108,7 +132,7 @@ export default class NintendoGames extends Component {
             </div>
           </div>
 
-          <div className="py-5">
+          <div id="nin-wii" className="py-5">
             <div className="container">
               <Title name="Nintendo Wii" title=" Games" />
 
@@ -128,7 +152,21 @@ export default class NintendoGames extends Component {
             </div>
           </div>
         </div>
-      </React.Fragment>
+      </NintendoGamesWrapper>
     );
   }
 }
+
+const NintendoGamesWrapper = styled.div`
+  #nintendo-games-nav {
+    list-style-type: none;
+    position: fixed;
+    top: 10.5rem;
+    right: 0.25rem;
+    -webkit-transform: translateZ(0);
+    z-index: 10;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+`;

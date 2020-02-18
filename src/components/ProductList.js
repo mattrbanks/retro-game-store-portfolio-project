@@ -5,6 +5,7 @@ import { ProductConsumer } from "../context";
 import { ButtonContainerGames } from "./ButtonForGames";
 import { Link } from "react-router-dom";
 import CarouselSlider from "./CarouselSlider";
+import styled from "styled-components";
 
 export default class ProductList extends Component {
   /*we don't need state here unless we want to console.log something*/
@@ -13,7 +14,9 @@ export default class ProductList extends Component {
       <React.Fragment>
         <div className="py-5">
           <div className="container">
-            <Title name="Matt's Retro Games" />
+            <StoreTitleWrapper>
+              <h1 id="store-title">Matt's Retro Games</h1>
+            </StoreTitleWrapper>
 
             <CarouselSlider />
           </div>
@@ -21,7 +24,7 @@ export default class ProductList extends Component {
         <div className="container">
           <h2>
             We only carry complete in box products in the best condition
-            possible. Quality guaranteed! -Collectors Paradise
+            possible. Quality guaranteed!
           </h2>
         </div>
         <div className="py-5">
@@ -35,7 +38,7 @@ export default class ProductList extends Component {
                     if (product.id < 50) {
                       return <Product key={product.id} product={product} />;
                     } else {
-                      return null;
+                      return null; //return the above or return nothing
                     }
                   });
                 }}
@@ -86,3 +89,10 @@ export default class ProductList extends Component {
     );
   }
 }
+
+const StoreTitleWrapper = styled.div`
+  #store-title {
+    font-size: 6rem;
+    text-align: center;
+  }
+`;

@@ -2,14 +2,35 @@ import React, { Component } from "react";
 import Product from "./Product";
 import Title from "./Title";
 import { ProductConsumer } from "../context";
+import styled from "styled-components";
+import ScrollToTopOnMount from "./ScrollToTopOnMount";
 
 export default class SegaGames extends Component {
   render() {
     return (
-      <React.Fragment>
+      <SegaGamesWrapper>
+        <ScrollToTopOnMount />
         <div>
+          <ul id="sega-games-nav">
+            <li>
+              <a href="#sega-cd">Sega CD</a>
+            </li>
+            <li>
+              <a href="#sega-genesis">Genesis</a>
+            </li>
+            <li>
+              <a href="#sega-dreamcast">Dreamcast</a>
+            </li>
+            <li>
+              <a href="#sega-saturn">Saturn</a>
+            </li>
+            <li>
+              <a href="#sega-master-system">Master System</a>
+            </li>
+          </ul>
+
           {/* When we map through the products array, which is connected to the objects storeProducts, We render what the product component exports for each product in the object . */}
-          <div className="py-5">
+          <div id="sega-cd" className="py-5">
             <div className="container">
               <Title name="Sega CD" title=" Games" />
 
@@ -29,7 +50,7 @@ export default class SegaGames extends Component {
             </div>
           </div>
 
-          <div className="py-5">
+          <div id="sega-genesis" className="py-5">
             <div className="container">
               <Title name="Sega Genesis" title=" Games" />
 
@@ -49,7 +70,7 @@ export default class SegaGames extends Component {
             </div>
           </div>
 
-          <div className="py-5">
+          <div id="sega-dreamcast" className="py-5">
             <div className="container">
               <Title name="Sega Dreamcast" title=" Games" />
 
@@ -69,7 +90,7 @@ export default class SegaGames extends Component {
             </div>
           </div>
 
-          <div className="py-5">
+          <div id="sega-saturn" className="py-5">
             <div className="container">
               <Title name="Sega Saturn" title=" Games" />
 
@@ -89,7 +110,7 @@ export default class SegaGames extends Component {
             </div>
           </div>
 
-          <div className="py-5">
+          <div id="sega-master-system" className="py-5">
             <div className="container">
               <Title name="Sega Master System" title=" Games" />
 
@@ -109,7 +130,21 @@ export default class SegaGames extends Component {
             </div>
           </div>
         </div>
-      </React.Fragment>
+      </SegaGamesWrapper>
     );
   }
 }
+
+const SegaGamesWrapper = styled.div`
+  #sega-games-nav {
+    list-style-type: none;
+    position: fixed;
+    top: 10.5rem;
+    right: 0.25rem;
+    -webkit-transform: translateZ(0);
+    z-index: 10;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+`;
