@@ -76,7 +76,7 @@ export default class ProductList extends Component {
                 <ButtonContainerGames>
                   <img
                     id="playstation-logo"
-                    src={"img/PlaystationLogo resized.png"}
+                    src={"img/PlayStationLogo resized.png"}
                     alt="product"
                     className="card-img-top"
                   />
