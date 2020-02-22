@@ -11,7 +11,7 @@ export default class SegaGames extends Component {
       <SegaGamesWrapper>
         <ScrollToTopOnMount />
         <div>
-          <ul id="sega-games-nav">
+          <ul id="sega-games-nav" className="quick-scroll-menu">
             <li>
               <a href="#sega-cd">Sega CD</a>
             </li>
@@ -147,4 +147,13 @@ const SegaGamesWrapper = styled.div`
     font-size: 0.9rem;
     opacity: 0.9;
   }
+
+    @media screen and (max-width: 700px) {
+      .quick-scroll-menu {
+        margin-top: 2rem;  
+      }
+      a {
+        font-size: 0.8rem;
+      }
+    }
 `;

@@ -11,7 +11,7 @@ export default class PlaystationGames extends Component {
       <PlaystationGamesWrapper>
         <ScrollToTopOnMount />
         <div>
-          <ul id="playstation-games-nav">
+          <ul id="playstation-games-nav" className="quick-scroll-menu">
             <li>
               <a href="#playstation">Playstation</a>
             </li>
@@ -76,5 +76,14 @@ const PlaystationGamesWrapper = styled.div`
     text-align: center;
     font-size: 0.9rem;
     opacity: 0.9;
+  }
+
+  @media screen and (max-width: 700px) {
+    .quick-scroll-menu {
+      margin-top: 2rem; 
+    }
+    a {
+      font-size: 0.8rem;
+    } 
   }
 `;

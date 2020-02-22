@@ -238,7 +238,7 @@ export const storeProducts = [
     title: "Sol Feace",
     platform: "Sega CD",
     img: "img2/game-7 resized.jpg",
-    price: 350,
+    price: 13,
     company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -251,7 +251,7 @@ export const storeProducts = [
     title: "Vay",
     platform: "Sega CD",
     img: "img2/game-9 resized.jpg",
-    price: 350,
+    price: 92,
     company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -264,7 +264,7 @@ export const storeProducts = [
     title: "Soul Star",
     platform: "Sega CD",
     img: "img2/game-10 resized.jpg",
-    price: 350,
+    price: 94,
     company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -277,7 +277,7 @@ export const storeProducts = [
     title: "Lords of Thunder",
     platform: "Sega CD",
     img: "img2/game-11.jpg",
-    price: 350,
+    price: 245,
     company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -290,7 +290,7 @@ export const storeProducts = [
     title: "Snatcher",
     platform: "Sega CD",
     img: "img2/game-12.jpg",
-    price: 350,
+    price: 611,
     company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",

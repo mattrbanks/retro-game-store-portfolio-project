@@ -27,7 +27,7 @@ export default class Contact extends Component {
             never let it go. -Matt
           </h2>
         </div>
-        <h2>Contact Matt:</h2>
+        <h2 id="contact-me">Contact Matt:</h2>
         <div className="row contact-icons">
           <div>
             <a
@@ -116,10 +116,15 @@ const ContactContainer = styled.div`
   }
 
   .shop-message {
-    margin-bottom: 5rem;
+    margin: 1rem 1rem 5rem 1rem;
   }
 
   .contact-icons {
     padding-bottom: 6rem;
+    margin: 1rem 1rem 5rem 1rem;
+  }
+
+  #contact-me {
+    margin: 1rem 1rem 1rem 1rem
   }
 `;

@@ -11,7 +11,7 @@ export default class NintendoGames extends Component {
       <NintendoGamesWrapper>
         <ScrollToTopOnMount />
         <div>
-          <ul id="nintendo-games-nav">
+          <ul id="nintendo-games-nav" className="quick-scroll-menu">
             <li>
               <a href="#super-nintendo">SNES</a>
             </li>
@@ -168,5 +168,14 @@ const NintendoGamesWrapper = styled.div`
     text-align: center;
     font-size: 0.9rem;
     opacity: 0.9;
+  }
+
+  @media screen and (max-width: 700px) {
+    .quick-scroll-menu {
+      margin-top: 2rem; 
+    }
+    a {
+      font-size: 0.8rem;
+    } 
   }
 `;

@@ -35,7 +35,7 @@ const AboutContainer = styled.div`
   }
 
   #about-store {
-    margin: 3rem;
-    padding: 3rem 3rem 7rem 3rem;
+    margin: 1rem;
+    padding: 1rem 1rem 5rem 1rem;
   }
 `;
