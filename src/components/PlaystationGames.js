@@ -16,7 +16,7 @@ export default class PlaystationGames extends Component {
               <a href="#playstation">Playstation</a>
             </li>
             <li>
-              <a href="#playstation-2">Playstation 2</a>
+              <a href="#playstation-2">PS 2</a>
             </li>
           </ul>
 
@@ -78,6 +78,17 @@ const PlaystationGamesWrapper = styled.div`
     opacity: 0.9;
   }
 
+  @media screen and (max-width: 835px) {
+    .quick-scroll-menu {
+      margin-top: 2rem;
+    }
+    a {
+      font-size: 0.55rem;
+    }
+    #super-nintendo {
+    }
+  }
+
   @media screen and (max-width: 700px) {
     .quick-scroll-menu {
       margin-top: 2rem;
@@ -92,7 +103,7 @@ const PlaystationGamesWrapper = styled.div`
       margin-top: 4rem;
     }
     a {
-      font-size: 0.6rem;
+      font-size: 0.82rem;
     }
   }
 `;

@@ -25,7 +25,7 @@ export default class SegaGames extends Component {
               <a href="#sega-saturn">Saturn</a>
             </li>
             <li>
-              <a href="#sega-master-system">Master System</a>
+              <a href="#sega-master-system">Master Sys</a>
             </li>
           </ul>
 
@@ -148,6 +148,17 @@ const SegaGamesWrapper = styled.div`
     opacity: 0.9;
   }
 
+  @media screen and (max-width: 835px) {
+    .quick-scroll-menu {
+      margin-top: 2rem;
+    }
+    a {
+      font-size: 0.55rem;
+    }
+    #super-nintendo {
+    }
+  }
+
   @media screen and (max-width: 700px) {
     .quick-scroll-menu {
       margin-top: 2rem;
@@ -162,7 +173,7 @@ const SegaGamesWrapper = styled.div`
       margin-top: 4rem;
     }
     a {
-      font-size: 0.6rem;
+      font-size: 0.82rem;
     }
   }
 `;
