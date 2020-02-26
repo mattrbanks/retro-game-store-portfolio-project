@@ -171,20 +171,14 @@ const NintendoGamesWrapper = styled.div`
   }
 
   @media screen and (max-width: 835px) {
-    .quick-scroll-menu {
-      margin-top: 2rem;
-    }
     a {
       font-size: 0.55rem;
     }
   }
 
   @media screen and (max-width: 700px) {
-    .quick-scroll-menu {
-      margin-top: 2rem;
-    }
     a {
-      font-size: 0.8rem;
+      font-size: 0.82rem;
     }
   }
 
@@ -193,7 +187,16 @@ const NintendoGamesWrapper = styled.div`
       margin-top: 4rem;
     }
     a {
-      font-size: 0.82rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (max-width: 378px) {
+    .quick-scroll-menu {
+      margin-top: 7rem;
+    }
+    a {
+      font-size: 0.72rem;
     }
   }
 `;

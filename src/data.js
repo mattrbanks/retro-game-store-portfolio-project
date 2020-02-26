@@ -198,7 +198,7 @@ export const storeProducts = [
     id: 52,
     title: "Lunar 2 - Eternal Blue",
     platform: "Sega CD",
-    img: "img2/game-3.jpg",
+    img: "img2/game-3 resized.jpg",
     price: 130,
     company: "Sega, Working Designs, Game Arts",
     info:

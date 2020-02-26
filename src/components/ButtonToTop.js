@@ -31,4 +31,26 @@ const ButtonToTopWrapper = styled.a`
   font-size: 3rem;
   color: #f3f3f3;
   opacity: 0.5;
+
+  @media screen and (max-width: 835px) {
+    #arrow-up {
+      background: #232528;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+    }
+    position: fixed;
+    width: 1rem;
+    height: 1rem;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    -webkit-transform: translateZ(0);
+    z-index: 10;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 2rem;
+    color: #f3f3f3;
+    opacity: 0.5;
+  }
 `;
