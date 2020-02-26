@@ -85,8 +85,6 @@ const PlaystationGamesWrapper = styled.div`
     a {
       font-size: 0.55rem;
     }
-    #super-nintendo {
-    }
   }
 
   @media screen and (max-width: 700px) {

@@ -95,4 +95,40 @@ const StoreTitleWrapper = styled.div`
     font-size: 6rem;
     text-align: center;
   }
+
+  @media screen and (max-width: 991px) {
+    #store-title {
+      font-size: 4rem;
+      text-align: center;
+  }
+
+  @media screen and (max-width: 835px) {
+    #store-title {
+      font-size: 3.5rem;
+      text-align: center;
+  }
+
+  @media screen and (max-width: 700px) {
+    #store-title {
+      font-size: 3rem;
+      text-align: center;
+  }
+
+  @media screen and (max-width: 575px) {
+    #store-title {
+      font-size: 3rem;
+      text-align: center;
+  }
+
+  @media screen and (max-width: 480px) {
+    #store-title {
+      font-size: 2.5rem;
+      text-align: center;
+  }
+
+  @media screen and (max-width: 369px) {
+    #store-title {
+      font-size: 2rem;
+      text-align: center;
+  }
 `;
