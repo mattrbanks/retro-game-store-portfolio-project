@@ -26,6 +26,13 @@ export default class ProductList extends Component {
             We only carry complete in box products in the best condition
             possible. Quality guaranteed!
           </h2>
+          <div>
+            <ul>
+              <li className="list-unstyled text-center mt-5">
+                <a href="#games-section">(See Our Games)</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="py-5">
           <div className="container">
@@ -46,7 +53,7 @@ export default class ProductList extends Component {
             </div>
           </div>
         </div>
-        <div className="py-5">
+        <div className="py-5" id="games-section">
           <div className="container">
             <Title name="our" title="games" />
             <div className="row">

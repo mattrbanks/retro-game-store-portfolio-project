@@ -316,7 +316,7 @@ export const storeProducts = [
     title: "Rocket Knight Adventures",
     platform: "Sega Genesis",
     img: "img2/game-52.jpg",
-    price: 90,
+    price: 45,
     company: "Sega, Konami",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -329,7 +329,7 @@ export const storeProducts = [
     title: "Castlevania - Bloodlines",
     platform: "Sega Genesis",
     img: "img2/game-51.jpg",
-    price: 90,
+    price: 105,
     company: "Sega, Konami",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -342,8 +342,8 @@ export const storeProducts = [
     title: "Shinobi 3 - Return of The Ninja Master",
     platform: "Sega Genesis",
     img: "img2/game-53.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 42,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -355,8 +355,8 @@ export const storeProducts = [
     title: "Earthworm Jim",
     platform: "Sega Genesis",
     img: "img2/game-54.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 40,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -368,8 +368,8 @@ export const storeProducts = [
     title: "Gunstar Heroes",
     platform: "Sega Genesis",
     img: "img2/game-55.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 85,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -381,8 +381,8 @@ export const storeProducts = [
     title: "Kid Chameleon",
     platform: "Sega Genesis",
     img: "img2/game-56.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 22,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -394,8 +394,8 @@ export const storeProducts = [
     title: "Phantasy Star 4",
     platform: "Sega Genesis",
     img: "img2/game-57.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 100,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -407,8 +407,8 @@ export const storeProducts = [
     title: "Sonic The Hedgehog",
     platform: "Sega Genesis",
     img: "img2/game-58.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 21,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -420,8 +420,8 @@ export const storeProducts = [
     title: "Thunder Force 3",
     platform: "Sega Genesis",
     img: "img2/game-59.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 86,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -430,11 +430,11 @@ export const storeProducts = [
   },
   {
     id: 150,
-    title: "Contra Hard Corps",
+    title: "Giga Wing 2",
     platform: "Sega Dreamcast",
     img: "img2/game-150.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 225,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -443,11 +443,11 @@ export const storeProducts = [
   },
   {
     id: 151,
-    title: "Contra Hard Corps",
+    title: "Ikaruga",
     platform: "Sega Dreamcast",
     img: "img2/game-151.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 87,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -456,11 +456,11 @@ export const storeProducts = [
   },
   {
     id: 152,
-    title: "Contra Hard Corps",
+    title: "Jet Grind Radio",
     platform: "Sega Dreamcast",
     img: "img2/game-152.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 38,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -469,11 +469,11 @@ export const storeProducts = [
   },
   {
     id: 153,
-    title: "Contra Hard Corps",
+    title: "Mars Matrix",
     platform: "Sega Dreamcast",
     img: "img2/game-153.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 124,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -482,11 +482,11 @@ export const storeProducts = [
   },
   {
     id: 154,
-    title: "Contra Hard Corps",
+    title: "Phantasy Star Online",
     platform: "Sega Dreamcast",
     img: "img2/game-154.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 19,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -495,11 +495,11 @@ export const storeProducts = [
   },
   {
     id: 155,
-    title: "Contra Hard Corps",
+    title: "Power Stone",
     platform: "Sega Dreamcast",
     img: "img2/game-155.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 57,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -508,11 +508,11 @@ export const storeProducts = [
   },
   {
     id: 156,
-    title: "Contra Hard Corps",
+    title: "Shenmue",
     platform: "Sega Dreamcast",
     img: "img2/game-156.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 28,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -521,11 +521,11 @@ export const storeProducts = [
   },
   {
     id: 157,
-    title: "Contra Hard Corps",
+    title: "Skies of Arcadia",
     platform: "Sega Dreamcast",
     img: "img2/game-157.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 88,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -534,11 +534,11 @@ export const storeProducts = [
   },
   {
     id: 158,
-    title: "Contra Hard Corps",
+    title: "Trigger Heart Exelica",
     platform: "Sega Dreamcast",
     img: "img2/game-158.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 56,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -547,11 +547,11 @@ export const storeProducts = [
   },
   {
     id: 159,
-    title: "Contra Hard Corps",
+    title: "Sonic Adventure",
     platform: "Sega Dreamcast",
     img: "img2/game-159.jpg",
-    price: 90,
-    company: "Sega, Konami",
+    price: 30,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -560,11 +560,11 @@ export const storeProducts = [
   },
   {
     id: 200,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Albert Odyssey",
     platform: "Sega Saturn",
     img: "img2/game-200.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 225,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -573,11 +573,11 @@ export const storeProducts = [
   },
   {
     id: 201,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Astal",
     platform: "Sega Saturn",
     img: "img2/game-201.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 76,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -586,11 +586,11 @@ export const storeProducts = [
   },
   {
     id: 202,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Darius Gaiden",
     platform: "Sega Saturn",
     img: "img2/game-202.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 72,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -599,11 +599,11 @@ export const storeProducts = [
   },
   {
     id: 203,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "DoDonPachi",
     platform: "Sega Saturn",
     img: "img2/game-203.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 74,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -612,11 +612,11 @@ export const storeProducts = [
   },
   {
     id: 204,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Guardian Heroes",
     platform: "Sega Saturn",
     img: "img2/game-204.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 150,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -625,11 +625,11 @@ export const storeProducts = [
   },
   {
     id: 205,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Magic Knight Rayearth",
     platform: "Sega Saturn",
     img: "img2/game-205.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 449,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -638,11 +638,11 @@ export const storeProducts = [
   },
   {
     id: 206,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Radiant Silvergun",
     platform: "Sega Saturn",
     img: "img2/game-206.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 207,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -651,11 +651,11 @@ export const storeProducts = [
   },
   {
     id: 207,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Shining the Holy Ark",
     platform: "Sega Saturn",
     img: "img2/game-207.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 109,
+    company: "sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -664,11 +664,11 @@ export const storeProducts = [
   },
   {
     id: 208,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Tomb Raider",
     platform: "Sega Saturn",
     img: "img2/game-208.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 19,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -677,11 +677,11 @@ export const storeProducts = [
   },
   {
     id: 209,
-    title: "Gyruss",
+    title: "X-Men Children of the Atom",
     platform: "Sega Saturn",
     img: "img2/game-209.jpg",
-    price: 30,
-    company: "Nintendo",
+    price: 58,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -690,11 +690,11 @@ export const storeProducts = [
   },
   {
     id: 250,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Alien Syndrome",
     platform: "Sega Master System",
     img: "img2/game-250.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 14,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -703,11 +703,11 @@ export const storeProducts = [
   },
   {
     id: 251,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Altered Beast",
     platform: "Sega Master System",
     img: "img2/game-251.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 16,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -716,11 +716,11 @@ export const storeProducts = [
   },
   {
     id: 252,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Rastan",
     platform: "Sega Master System",
     img: "img2/game-252.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 37,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -729,11 +729,11 @@ export const storeProducts = [
   },
   {
     id: 253,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Bubble Bobble",
     platform: "Sega Master System",
     img: "img2/game-253.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 47,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -742,11 +742,11 @@ export const storeProducts = [
   },
   {
     id: 254,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Ghouls N Ghosts",
     platform: "Sega Master System",
     img: "img2/game-254.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 105,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -755,11 +755,11 @@ export const storeProducts = [
   },
   {
     id: 255,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Phantasy Star",
     platform: "Sega Master System",
     img: "img2/game-255.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 87,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -768,11 +768,11 @@ export const storeProducts = [
   },
   {
     id: 256,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Sonic the Hedgehog",
     platform: "Sega Master System",
     img: "img2/game-256.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 900,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -781,11 +781,11 @@ export const storeProducts = [
   },
   {
     id: 257,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Space Harrier 3D",
     platform: "Sega Master System",
     img: "img2/game-257.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 28,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -794,11 +794,11 @@ export const storeProducts = [
   },
   {
     id: 258,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Strider",
     platform: "Sega Master System",
     img: "img2/game-258.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 44,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -807,11 +807,11 @@ export const storeProducts = [
   },
   {
     id: 259,
-    title: "Gyruss",
+    title: "Wonder Boy III - The Dragon's Trap",
     platform: "Sega Master System",
     img: "img2/game-259.jpg",
-    price: 30,
-    company: "Nintendo",
+    price: 57,
+    company: "Sega",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -823,7 +823,7 @@ export const storeProducts = [
     title: "The Legend Of Zelda - A Link To The Past",
     platform: "Super Nintendo",
     img: "img2/game-300 alt.jpg",
-    price: 90,
+    price: 87,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -833,10 +833,10 @@ export const storeProducts = [
   },
   {
     id: 301,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Final Fantasy 3",
     platform: "Super Nintendo",
     img: "img2/game-301.jpg",
-    price: 90,
+    price: 165,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -846,10 +846,10 @@ export const storeProducts = [
   },
   {
     id: 302,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Chrono Trigger",
     platform: "Super Nintendo",
     img: "img2/game-302.jpg",
-    price: 90,
+    price: 254,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -859,10 +859,10 @@ export const storeProducts = [
   },
   {
     id: 303,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Donkey Kong Country",
     platform: "Super Nintendo",
     img: "img2/game-303.jpg",
-    price: 90,
+    price: 40,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -872,10 +872,10 @@ export const storeProducts = [
   },
   {
     id: 304,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "R-Type III The Third Lightning",
     platform: "Super Nintendo",
     img: "img2/game-304.jpg",
-    price: 90,
+    price: 324,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -885,10 +885,10 @@ export const storeProducts = [
   },
   {
     id: 305,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Secret of Mana",
     platform: "Super Nintendo",
     img: "img2/game-305.jpg",
-    price: 90,
+    price: 114,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -898,10 +898,10 @@ export const storeProducts = [
   },
   {
     id: 306,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Super Adventure Island",
     platform: "Super Nintendo",
     img: "img2/game-306.jpg",
-    price: 90,
+    price: 36,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -911,10 +911,10 @@ export const storeProducts = [
   },
   {
     id: 307,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Super Castlevania IV",
     platform: "Super Nintendo",
     img: "img2/game-307.jpg",
-    price: 90,
+    price: 83,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -924,10 +924,10 @@ export const storeProducts = [
   },
   {
     id: 308,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Super Ghouls 'N Ghosts",
     platform: "Super Nintendo",
     img: "img2/game-308.jpg",
-    price: 90,
+    price: 66,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -937,10 +937,10 @@ export const storeProducts = [
   },
   {
     id: 309,
-    title: "Gyruss",
+    title: "Super Mario Kart",
     platform: "Super Nintendo",
     img: "img2/game-309.jpg",
-    price: 30,
+    price: 42,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -950,10 +950,10 @@ export const storeProducts = [
   },
   {
     id: 350,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Gyruss",
     platform: "Nintendo Entertainment System",
     img: "img2/game-350.jpg",
-    price: 90,
+    price: 25,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -963,10 +963,10 @@ export const storeProducts = [
   },
   {
     id: 351,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Ninja Gaiden 3 - The Ancient Ship of Doom",
     platform: "Nintendo Entertainment System",
     img: "img2/game-351.jpg",
-    price: 90,
+    price: 193,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -976,10 +976,10 @@ export const storeProducts = [
   },
   {
     id: 352,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Castlevania III - Dracula's Curse",
     platform: "Nintendo Entertainment System",
     img: "img2/game-352.jpg",
-    price: 90,
+    price: 94,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -989,10 +989,10 @@ export const storeProducts = [
   },
   {
     id: 353,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Teenage Mutant Ninja Turtles",
     platform: "Nintendo Entertainment System",
     img: "img2/game-353.jpg",
-    price: 90,
+    price: 34,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1002,10 +1002,10 @@ export const storeProducts = [
   },
   {
     id: 354,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Adventure Island 2",
     platform: "Nintendo Entertainment System",
     img: "img2/game-354.jpg",
-    price: 90,
+    price: 56,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1015,10 +1015,10 @@ export const storeProducts = [
   },
   {
     id: 355,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Faxanadu",
     platform: "Nintendo Entertainment System",
     img: "img2/game-355.jpg",
-    price: 90,
+    price: 33,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1028,10 +1028,10 @@ export const storeProducts = [
   },
   {
     id: 356,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Zelda 2 - The Adventure of Link",
     platform: "Nintendo Entertainment System",
     img: "img2/game-356.jpg",
-    price: 90,
+    price: 55,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1041,7 +1041,7 @@ export const storeProducts = [
   },
   {
     id: 357,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Mega Man 4",
     platform: "Nintendo Entertainment System",
     img: "img2/game-357.jpg",
     price: 90,
@@ -1054,10 +1054,10 @@ export const storeProducts = [
   },
   {
     id: 358,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Shadowgate",
     platform: "Nintendo Entertainment System",
     img: "img2/game-358.jpg",
-    price: 90,
+    price: 25,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1067,10 +1067,10 @@ export const storeProducts = [
   },
   {
     id: 359,
-    title: "Gyruss",
+    title: "Wizards and Warriors",
     platform: "Nintendo Entertainment System",
     img: "img2/game-359.jpg",
-    price: 30,
+    price: 25,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1080,10 +1080,10 @@ export const storeProducts = [
   },
   {
     id: 400,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Baldur'S Gate Dark Alliance",
     platform: "Nintendo Gamecube",
     img: "img2/game-400.jpg",
-    price: 90,
+    price: 23,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1093,10 +1093,10 @@ export const storeProducts = [
   },
   {
     id: 401,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "The Legend Of Zelda - Wind Waker",
     platform: "Nintendo Gamecube",
     img: "img2/game-401.jpg",
-    price: 90,
+    price: 40,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1106,10 +1106,10 @@ export const storeProducts = [
   },
   {
     id: 402,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Luigi's Mansion",
     platform: "Nintendo Gamecube",
     img: "img2/game-402.jpg",
-    price: 90,
+    price: 45,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1119,10 +1119,10 @@ export const storeProducts = [
   },
   {
     id: 403,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Mario Kart - Double Dash",
     platform: "Nintendo Gamecube",
     img: "img2/game-403.jpg",
-    price: 90,
+    price: 42,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1132,10 +1132,10 @@ export const storeProducts = [
   },
   {
     id: 404,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Metroid Prime",
     platform: "Nintendo Gamecube",
     img: "img2/game-404.jpg",
-    price: 90,
+    price: 20,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1145,10 +1145,10 @@ export const storeProducts = [
   },
   {
     id: 405,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Prince of Persia - Two Thrones",
     platform: "Nintendo Gamecube",
     img: "img2/game-405.jpg",
-    price: 90,
+    price: 9,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1158,10 +1158,10 @@ export const storeProducts = [
   },
   {
     id: 406,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Sonic Mega Collection",
     platform: "Nintendo Gamecube",
     img: "img2/game-406.jpg",
-    price: 90,
+    price: 10,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1171,10 +1171,10 @@ export const storeProducts = [
   },
   {
     id: 407,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "The Legend Of Zelda - Twilight Princess",
     platform: "Nintendo Gamecube",
     img: "img2/game-407.jpg",
-    price: 90,
+    price: 53,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1184,10 +1184,10 @@ export const storeProducts = [
   },
   {
     id: 408,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Viewtiful Joe",
     platform: "Nintendo Gamecube",
     img: "img2/game-408.jpg",
-    price: 90,
+    price: 22,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1197,10 +1197,10 @@ export const storeProducts = [
   },
   {
     id: 409,
-    title: "Gyruss",
+    title: "X-men Legends 2",
     platform: "Nintendo Gamecube",
     img: "img2/game-409.jpg",
-    price: 30,
+    price: 12,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1210,10 +1210,10 @@ export const storeProducts = [
   },
   {
     id: 450,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Bomberman 64",
     platform: "Nintendo 64",
     img: "img2/game-450.jpg",
-    price: 90,
+    price: 43,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1223,10 +1223,10 @@ export const storeProducts = [
   },
   {
     id: 451,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "F-Zero X",
     platform: "Nintendo 64",
     img: "img2/game-451.jpg",
-    price: 90,
+    price: 50,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1236,10 +1236,10 @@ export const storeProducts = [
   },
   {
     id: 452,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Hexen",
     platform: "Nintendo 64",
     img: "img2/game-452.jpg",
-    price: 90,
+    price: 32,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1249,10 +1249,10 @@ export const storeProducts = [
   },
   {
     id: 453,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Sin and Punishment",
     platform: "Nintendo 64",
     img: "img2/game-453.jpg",
-    price: 90,
+    price: 60,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1262,10 +1262,10 @@ export const storeProducts = [
   },
   {
     id: 454,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Star Fox 64",
     platform: "Nintendo 64",
     img: "img2/game-454.jpg",
-    price: 90,
+    price: 47,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1275,10 +1275,10 @@ export const storeProducts = [
   },
   {
     id: 455,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Super Mario 64",
     platform: "Nintendo 64",
     img: "img2/game-455.jpg",
-    price: 90,
+    price: 58,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1288,10 +1288,10 @@ export const storeProducts = [
   },
   {
     id: 456,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "The Legend Of Zelda - Majora's Mask",
     platform: "Nintendo 64",
     img: "img2/game-456.jpg",
-    price: 90,
+    price: 102,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1301,10 +1301,10 @@ export const storeProducts = [
   },
   {
     id: 457,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "The Legend Of Zelda - Ocarina of Time",
     platform: "Nintendo 64",
     img: "img2/game-457.jpg",
-    price: 90,
+    price: 60,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1314,10 +1314,10 @@ export const storeProducts = [
   },
   {
     id: 458,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Turok 2 - Seeds of Evil",
     platform: "Nintendo 64",
     img: "img2/game-458.jpg",
-    price: 90,
+    price: 22,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1327,10 +1327,10 @@ export const storeProducts = [
   },
   {
     id: 459,
-    title: "Gyruss",
+    title: "Turok - Dinosaur Hunter",
     platform: "Nintendo 64",
     img: "img2/game-459.jpg",
-    price: 30,
+    price: 34,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1340,10 +1340,10 @@ export const storeProducts = [
   },
   {
     id: 500,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Akumajou Dracula",
     platform: "Nintendo Famicom",
     img: "img2/game-500.jpg",
-    price: 90,
+    price: 45,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1353,10 +1353,10 @@ export const storeProducts = [
   },
   {
     id: 501,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Bubble Bobble",
     platform: "Nintendo Famicom",
     img: "img2/game-501.jpg",
-    price: 90,
+    price: 50,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1366,10 +1366,10 @@ export const storeProducts = [
   },
   {
     id: 502,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Yume Koujou - Doki Doki Panic",
     platform: "Nintendo Famicom",
     img: "img2/game-502.jpg",
-    price: 90,
+    price: 73,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1379,10 +1379,10 @@ export const storeProducts = [
   },
   {
     id: 503,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Eggerland",
     platform: "Nintendo Famicom",
     img: "img2/game-503.jpg",
-    price: 90,
+    price: 20,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1392,10 +1392,10 @@ export const storeProducts = [
   },
   {
     id: 504,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "F1 Race",
     platform: "Nintendo Famicom",
     img: "img2/game-504.jpg",
-    price: 90,
+    price: 13,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1405,10 +1405,10 @@ export const storeProducts = [
   },
   {
     id: 505,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Falsion",
     platform: "Nintendo Famicom",
     img: "img2/game-505.jpg",
-    price: 90,
+    price: 55,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1418,10 +1418,10 @@ export const storeProducts = [
   },
   {
     id: 506,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Gyruss",
     platform: "Nintendo Famicom",
     img: "img2/game-506.jpg",
-    price: 90,
+    price: 25,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1431,10 +1431,10 @@ export const storeProducts = [
   },
   {
     id: 507,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Metroid",
     platform: "Nintendo Famicom",
     img: "img2/game-507.jpg",
-    price: 90,
+    price: 42,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1444,10 +1444,10 @@ export const storeProducts = [
   },
   {
     id: 508,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Nazo no Murasame-Jou",
     platform: "Nintendo Famicom",
     img: "img2/game-508.jpg",
-    price: 90,
+    price: 18,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1457,10 +1457,10 @@ export const storeProducts = [
   },
   {
     id: 509,
-    title: "Gyruss",
+    title: "Legend of Zelda II - Adventure of Link",
     platform: "Nintendo Famicom",
     img: "img2/game-509.jpg",
-    price: 30,
+    price: 34,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1470,10 +1470,10 @@ export const storeProducts = [
   },
   {
     id: 550,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Donkey Kong Country Returns",
     platform: "Nintendo Wii",
     img: "img2/game-550.jpg",
-    price: 90,
+    price: 12,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1483,10 +1483,10 @@ export const storeProducts = [
   },
   {
     id: 551,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "The Last Story",
     platform: "Nintendo Wii",
     img: "img2/game-551.jpg",
-    price: 90,
+    price: 30,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1496,10 +1496,10 @@ export const storeProducts = [
   },
   {
     id: 552,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Mario Kart Wii",
     platform: "Nintendo Wii",
     img: "img2/game-552.jpg",
-    price: 90,
+    price: 23,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1509,10 +1509,10 @@ export const storeProducts = [
   },
   {
     id: 553,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Metroid: Other M",
     platform: "Nintendo Wii",
     img: "img2/game-553.jpg",
-    price: 90,
+    price: 7,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1522,10 +1522,10 @@ export const storeProducts = [
   },
   {
     id: 554,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Metroid Prime Trilogy",
     platform: "Nintendo Wii",
     img: "img2/game-554.jpg",
-    price: 90,
+    price: 50,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1535,10 +1535,10 @@ export const storeProducts = [
   },
   {
     id: 555,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Sin and Punishment - Star Successor",
     platform: "Nintendo Wii",
     img: "img2/game-555.jpg",
-    price: 90,
+    price: 15,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1548,10 +1548,10 @@ export const storeProducts = [
   },
   {
     id: 556,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Super Mario Galaxy 2",
     platform: "Nintendo Wii",
     img: "img2/game-556.jpg",
-    price: 90,
+    price: 16,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1561,10 +1561,10 @@ export const storeProducts = [
   },
   {
     id: 557,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "The Conduit",
     platform: "Nintendo Wii",
     img: "img2/game-557.jpg",
-    price: 90,
+    price: 6,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1574,10 +1574,10 @@ export const storeProducts = [
   },
   {
     id: 558,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "The Legend Of Zelda - Skyward Sword",
     platform: "Nintendo Wii",
     img: "img2/game-558.jpg",
-    price: 90,
+    price: 26,
     company: "Nintendo",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
@@ -1587,7 +1587,7 @@ export const storeProducts = [
   },
   {
     id: 559,
-    title: "Gyruss",
+    title: "Xenoblade Chronicles",
     platform: "Nintendo Wii",
     img: "img2/game-559.jpg",
     price: 30,
@@ -1600,11 +1600,11 @@ export const storeProducts = [
   },
   {
     id: 600,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Medievil",
     platform: "Playstation",
     img: "img2/game-600.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 35,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1613,11 +1613,11 @@ export const storeProducts = [
   },
   {
     id: 601,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Brave Fencer Musashi",
     platform: "Playstation",
     img: "img2/game-601.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 53,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1626,11 +1626,11 @@ export const storeProducts = [
   },
   {
     id: 602,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Castlevania Symphony of the Night",
     platform: "Playstation",
     img: "img2/game-602.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 76,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1639,11 +1639,11 @@ export const storeProducts = [
   },
   {
     id: 603,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Bushido Blade",
     platform: "Playstation",
     img: "img2/game-603.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 24,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1652,11 +1652,11 @@ export const storeProducts = [
   },
   {
     id: 604,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Chrono Cross",
     platform: "Playstation",
     img: "img2/game-604.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 22,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1665,11 +1665,11 @@ export const storeProducts = [
   },
   {
     id: 605,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Einhander",
     platform: "Playstation",
     img: "img2/game-605.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 96,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1678,11 +1678,11 @@ export const storeProducts = [
   },
   {
     id: 606,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Final Fantasy 7",
     platform: "Playstation",
     img: "img2/game-606.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 33,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1691,11 +1691,11 @@ export const storeProducts = [
   },
   {
     id: 607,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "G Darius",
     platform: "Playstation",
     img: "img2/game-607.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 41,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1704,11 +1704,11 @@ export const storeProducts = [
   },
   {
     id: 608,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "R-Type Delta",
     platform: "Playstation",
     img: "img2/game-608.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 140,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1717,11 +1717,11 @@ export const storeProducts = [
   },
   {
     id: 609,
-    title: "Gyruss",
+    title: "Resident Evil 2",
     platform: "Playstation",
     img: "img2/game-609.jpg",
     price: 30,
-    company: "Nintendo",
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1730,11 +1730,11 @@ export const storeProducts = [
   },
   {
     id: 650,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Baldur's Gate Dark Alliance 2",
     platform: "Playstation 2",
     img: "img2/game-650.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 40,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1743,11 +1743,11 @@ export const storeProducts = [
   },
   {
     id: 651,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Devil May Cry 3",
     platform: "Playstation 2",
     img: "img2/game-651.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 6,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1756,11 +1756,11 @@ export const storeProducts = [
   },
   {
     id: 652,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Dragon Quest VIII - Journey of the Cursed King",
     platform: "Playstation 2",
     img: "img2/game-652.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 16,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1769,11 +1769,11 @@ export const storeProducts = [
   },
   {
     id: 653,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "God of War 2",
     platform: "Playstation 2",
     img: "img2/game-653.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 8,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1782,11 +1782,11 @@ export const storeProducts = [
   },
   {
     id: 654,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Gradius 3 and 4",
     platform: "Playstation 2",
     img: "img2/game-654.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 30,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1795,11 +1795,11 @@ export const storeProducts = [
   },
   {
     id: 655,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Gradius V",
     platform: "Playstation 2",
     img: "img2/game-655.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 50,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1808,11 +1808,11 @@ export const storeProducts = [
   },
   {
     id: 656,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Ratchet and Clank - Up Your Arsenal",
     platform: "Playstation 2",
     img: "img2/game-656.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 10,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1821,11 +1821,11 @@ export const storeProducts = [
   },
   {
     id: 657,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "Resident Evil 4",
     platform: "Playstation 2",
     img: "img2/game-657.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 7,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1834,11 +1834,11 @@ export const storeProducts = [
   },
   {
     id: 658,
-    title: "The Legend Of Zelda - A Link To The Past",
+    title: "R-Type Final",
     platform: "Playstation 2",
     img: "img2/game-658.jpg",
-    price: 90,
-    company: "Nintendo",
+    price: 22,
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,
@@ -1847,11 +1847,11 @@ export const storeProducts = [
   },
   {
     id: 659,
-    title: "Gyruss",
+    title: "Wild Arms 4",
     platform: "Playstation 2",
     img: "img2/game-659.jpg",
     price: 30,
-    company: "Nintendo",
+    company: "Sony",
     info:
       "Original used copy like new complete in box. Tested and fully working.",
     inCart: false,

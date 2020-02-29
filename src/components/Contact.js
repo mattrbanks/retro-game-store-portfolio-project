@@ -87,6 +87,27 @@ const ContactContainer = styled.div`
     margin-right: 4rem;
   }
 
+  @media screen and (max-width: 462px) {
+    .icon {
+      font-size: 4rem;
+      margin-right: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 406px) {
+    .icon {
+      font-size: 3rem;
+      margin-right: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .icon {
+      font-size: 2rem;
+      margin-right: 4rem;
+    }
+  }
+
   .contact {
     margin-top: 2.5rem;
   }
@@ -125,6 +146,6 @@ const ContactContainer = styled.div`
   }
 
   #contact-me {
-    margin: 1rem 1rem 1rem 1rem
+    margin: 1rem 1rem 1rem 1rem;
   }
 `;
