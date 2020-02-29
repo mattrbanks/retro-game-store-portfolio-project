@@ -5,16 +5,14 @@ export default class MyApp extends React.Component {
   render() {
     const onSuccess = payment => {
       // Congratulation, it came here means everything's fine!
-      console.log("The payment was succeeded!", payment);
+      console.log("The payment was successful!", payment);
       this.props.clearCart();
       this.props.history.push("/");
-      // You can bind the "payment" object's value to your state or props or whatever here, please see below for sample returned data
     };
 
     const onCancel = data => {
       // User pressed "cancel" or close Paypal's popup!
       console.log("The payment was cancelled!", data);
-      // You can bind the "data" object's value to your state or props or whatever here, please see below for sample returned data
     };
 
     const onError = err => {
@@ -34,13 +32,7 @@ export default class MyApp extends React.Component {
       sandbox: process.env.REACT_APP_APP_ID,
       production: "YOUR-PRODUCTION-APP-ID"
     };
-    // In order to get production's app-ID, you will have to send your app to Paypal for approval first
-    // For sandbox app-ID (after logging into your developer account, please locate the "REST API apps" section, click "Create App"):
-    //   => https://developer.paypal.com/docs/classic/lifecycle/sb_credentials/
-    // For production app-ID:
-    //   => https://developer.paypal.com/docs/classic/lifecycle/goingLive/
 
-    // NB. You can also have many Paypal express checkout buttons on page, just pass in the correct amount and they will work!
     return (
       <PaypalExpressBtn
         env={env}
