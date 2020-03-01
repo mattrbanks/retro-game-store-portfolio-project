@@ -8,7 +8,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-52.jpg"}
+            src={"img2/game-52.webp"}
             alt="First slide"
           />
           {/* <Carousel.Caption>
@@ -19,7 +19,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-5 resized.jpg"}
+            src={"img2/game-5 resized.webp"}
             alt="Second slide"
           />
 
@@ -31,7 +31,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-350.jpg"}
+            src={"img2/game-350.webp"}
             alt="Third slide"
           />
 
@@ -45,7 +45,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-3 resized.jpg"}
+            src={"img2/game-3 resized.webp"}
             alt="Fourth slide"
           />
 
@@ -59,7 +59,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-351.jpg"}
+            src={"img2/game-351.webp"}
             alt="Fifth slide"
           />
 
@@ -73,7 +73,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-300 alt.jpg"}
+            src={"img2/game-300 alt.webp"}
             alt="Sixth slide"
           />
 
@@ -87,7 +87,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-352.jpg"}
+            src={"img2/game-352.webp"}
             alt="Seventh slide"
           />
 
@@ -101,7 +101,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-600.jpg"}
+            src={"img2/game-600.webp"}
             alt="Eighth slide"
           />
 
@@ -115,7 +115,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-601.jpg"}
+            src={"img2/game-601.webp"}
             alt="Ninth slide"
           />
 
@@ -129,7 +129,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-301.jpg"}
+            src={"img2/game-301.webp"}
             alt="Tenth slide"
           />
 
@@ -143,7 +143,7 @@ export default class CarouselSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={"img2/game-353.jpg"}
+            src={"img2/game-353.webp"}
             alt="Eleventh slide"
           />
 
