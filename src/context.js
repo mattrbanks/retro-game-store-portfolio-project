@@ -22,6 +22,7 @@ class ProductProvider extends Component {
     searchResults: [], //resulting search object to render in SearchUserResults
     search: "" //input from user
   };
+
   /*we don't want our original data object reference to change so we handle the state this way with copies.*/
   /*lifecycle method. We say this once but can put many methods inside it. Look into this further.*/
   componentDidMount() {
@@ -44,12 +45,14 @@ class ProductProvider extends Component {
     const product = this.state.products.find(item => item.id === id);
     return product;
   };
+
   handleDetail = id => {
     const product = this.getItem(id);
     this.setState(() => {
       return { detailProduct: product }; //detailProduct can transform into any of the products that we grab by id with getItem in order to render a detail page for any product in our data objects.
     });
   };
+
   addToCart = id => {
     let tempProducts = [...this.state.products];
     /* we use index instead of find here because we want the product to display back in the same position on the products page after it is added to the cart. With .find the product would be moved around on the product page I guess. */
@@ -73,17 +76,20 @@ class ProductProvider extends Component {
       }
     );
   };
+
   openModal = id => {
     const product = this.getItem(id);
     this.setState(() => {
       return { modalProduct: product, modalOpen: true };
     });
   };
+
   closeModal = () => {
     this.setState(() => {
       return { modalOpen: false };
     });
   };
+
   //While creating components and methods that will be available to the components, we can use console logs as placeholders to test functionality. This avoids having to go back and forth a lot.
   increment = id => {
     let tempCart = [...this.state.cart];
@@ -104,6 +110,7 @@ class ProductProvider extends Component {
       }
     );
   };
+
   decrement = id => {
     //increment and decrement could be one method to avoid repeating these four lines of code again but that is what we did here. This is not considered best practice, however.
     let tempCart = [...this.state.cart];
@@ -128,6 +135,7 @@ class ProductProvider extends Component {
       );
     }
   };
+
   /* This entire method runs after you click the trash can icon in the cart.  */
   removeItem = id => {
     let tempProducts = [...this.state.products]; //I believe these variables are re-declared and re-useable because of scope.
@@ -154,6 +162,7 @@ class ProductProvider extends Component {
       }
     );
   };
+
   clearCart = () => {
     this.setState(
       () => {
@@ -167,6 +176,7 @@ class ProductProvider extends Component {
       }
     );
   };
+
   addTotals = () => {
     let subTotal = 0;
     this.state.cart.map(item => (subTotal += item.total));
@@ -247,6 +257,13 @@ class ProductProvider extends Component {
     }
   };
 
+  scrollSmooth = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
   render() {
     console.log(this.state.searchResults);
     //console.log(this.state.searchResults);
@@ -271,7 +288,8 @@ class ProductProvider extends Component {
           searchFilter: this.searchFilter,
           updateSearch: this.updateSearch,
           enterKeyPressed: this.enterKeyPressed,
-          handleEnterKeyRoute: this.handleEnterKeyRoute
+          handleEnterKeyRoute: this.handleEnterKeyRoute,
+          scrollSmooth: this.scrollSmooth
         }}
       >
         {this.props.children}

@@ -28,7 +28,7 @@ export default class SegaGames extends Component {
               <a href="#sega-master-system">Master Sys</a>
             </li>
           </ul>
-
+          );
           {/* When we map through the products array, which is connected to the objects storeProducts, We render what the product component exports for each product in the object . */}
           <div id="sega-cd" className="py-5">
             <div className="container">
@@ -49,7 +49,6 @@ export default class SegaGames extends Component {
               </div>
             </div>
           </div>
-
           <div id="sega-genesis" className="py-5">
             <div className="container">
               <Title name="Sega Genesis" title=" Games" />
@@ -69,7 +68,6 @@ export default class SegaGames extends Component {
               </div>
             </div>
           </div>
-
           <div id="sega-dreamcast" className="py-5">
             <div className="container">
               <Title name="Sega Dreamcast" title=" Games" />
@@ -89,7 +87,6 @@ export default class SegaGames extends Component {
               </div>
             </div>
           </div>
-
           <div id="sega-saturn" className="py-5">
             <div className="container">
               <Title name="Sega Saturn" title=" Games" />
@@ -109,7 +106,6 @@ export default class SegaGames extends Component {
               </div>
             </div>
           </div>
-
           <div id="sega-master-system" className="py-5">
             <div className="container">
               <Title name="Sega Master System" title=" Games" />
@@ -148,6 +144,12 @@ const SegaGamesWrapper = styled.div`
     opacity: 0.9;
   }
 
+  @media screen and (max-width: 1024px) {
+    a {
+      font-size: 0.63rem;
+    }
+  }
+
   @media screen and (max-width: 835px) {
     a {
       font-size: 0.55rem;
@@ -157,6 +159,15 @@ const SegaGamesWrapper = styled.div`
   @media screen and (max-width: 700px) {
     a {
       font-size: 0.82rem;
+    }
+  }
+
+  @media screen and (max-width: 689px) {
+    .quick-scroll-menu {
+      margin-top: 2rem;
+    }
+    a {
+      font-size: 0.8rem;
     }
   }
 

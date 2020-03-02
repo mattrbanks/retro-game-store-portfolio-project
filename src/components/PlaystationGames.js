@@ -78,6 +78,12 @@ const PlaystationGamesWrapper = styled.div`
     opacity: 0.9;
   }
 
+  @media screen and (max-width: 1024px) {
+    a {
+      font-size: 0.63rem;
+    }
+  }
+
   @media screen and (max-width: 835px) {
     a {
       font-size: 0.55rem;
@@ -87,6 +93,15 @@ const PlaystationGamesWrapper = styled.div`
   @media screen and (max-width: 700px) {
     a {
       font-size: 0.82rem;
+    }
+  }
+
+  @media screen and (max-width: 689px) {
+    .quick-scroll-menu {
+      margin-top: 2rem;
+    }
+    a {
+      font-size: 0.8rem;
     }
   }
 

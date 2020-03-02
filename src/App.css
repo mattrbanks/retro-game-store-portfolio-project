@@ -6,10 +6,6 @@
   --mainYellow: #ffa400;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: "Oswald", sans-serif !important; /*bootstrap override if not !important*/
   background: var(--mainWhite) !important;
@@ -75,4 +71,8 @@ body {
 #playstation-logo {
   width: 100%;
   height: 100%;
+}
+
+#cart-totals {
+  padding-bottom: 7rem;
 }
