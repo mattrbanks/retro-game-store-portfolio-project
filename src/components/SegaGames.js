@@ -30,7 +30,7 @@ export default class SegaGames extends Component {
                 <a href="#sega-master-system">Master Sys</a>
               </li>
             </ul>
-            );
+
             {/* When we map through the products array, which is connected to the objects storeProducts, We render what the product component exports for each product in the object . */}
             <div id="sega-cd" className="py-5">
               <div className="container">
