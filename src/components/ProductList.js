@@ -6,6 +6,7 @@ import { ButtonContainerGames } from "./ButtonForGames";
 import { Link } from "react-router-dom";
 import CarouselSlider from "./CarouselSlider";
 import styled from "styled-components";
+import ButtonToTop from "../components/ButtonToTop";
 
 export default class ProductList extends Component {
   /*we don't need state here unless we want to console.log something*/
@@ -92,6 +93,7 @@ export default class ProductList extends Component {
             </div>
           </div>
         </div>
+        <ButtonToTop />
       </React.Fragment>
     );
   }

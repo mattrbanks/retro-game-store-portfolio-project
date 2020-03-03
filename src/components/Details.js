@@ -51,7 +51,7 @@ export default class Details extends Component {
                   {/* buttons */}
                   <div className="row">
                     <Link to="/" className="ml-auto mr-auto">
-                      <ButtonContainer>back to products</ButtonContainer>
+                      <ButtonContainer>home</ButtonContainer>
                     </Link>
                     <DetailsAnchorWrapper>
                       <a href="javascript:history.back()">

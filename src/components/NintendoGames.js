@@ -4,155 +4,159 @@ import Title from "./Title";
 import { ProductConsumer } from "../context";
 import styled from "styled-components";
 import ScrollToTopOnMount from "./ScrollToTopOnMount";
+import ButtonToTop from "./ButtonToTop";
 
 export default class NintendoGames extends Component {
   render() {
     return (
-      <NintendoGamesWrapper>
-        <ScrollToTopOnMount />
-        <div>
-          <ul id="nintendo-games-nav" className="quick-scroll-menu">
-            <li>
-              <a href="#super-nintendo">SNES</a>
-            </li>
-            <li>
-              <a href="#nin-ent-sys">NES</a>
-            </li>
-            <li>
-              <a href="#nin-gamecube">Gamecube</a>
-            </li>
-            <li>
-              <a href="#nin-64">Nintendo 64</a>
-            </li>
-            <li>
-              <a href="#nin-famicom">Famicom</a>
-            </li>
-            <li>
-              <a href="#nin-wii">Wii</a>
-            </li>
-          </ul>
+      <React.Fragment>
+        <NintendoGamesWrapper>
+          <ScrollToTopOnMount />
+          <div>
+            <ul id="nintendo-games-nav" className="quick-scroll-menu">
+              <li>
+                <a href="#super-nintendo">SNES</a>
+              </li>
+              <li>
+                <a href="#nin-ent-sys">NES</a>
+              </li>
+              <li>
+                <a href="#nin-gamecube">Gamecube</a>
+              </li>
+              <li>
+                <a href="#nin-64">Nintendo 64</a>
+              </li>
+              <li>
+                <a href="#nin-famicom">Famicom</a>
+              </li>
+              <li>
+                <a href="#nin-wii">Wii</a>
+              </li>
+            </ul>
 
-          <div id="super-nintendo" className="py-5">
-            <div className="container">
-              <Title name="Super Nintendo" title=" Games" />
+            <div id="super-nintendo" className="py-5">
+              <div className="container">
+                <Title name="Super Nintendo" title=" Games" />
 
-              <div className="row">
-                <ProductConsumer>
-                  {value => {
-                    return value.products.map(product => {
-                      if (product.id >= 300 && product.id < 350) {
-                        return <Product key={product.id} product={product} />;
-                      } else {
-                        return null;
-                      }
-                    });
-                  }}
-                </ProductConsumer>
+                <div className="row">
+                  <ProductConsumer>
+                    {value => {
+                      return value.products.map(product => {
+                        if (product.id >= 300 && product.id < 350) {
+                          return <Product key={product.id} product={product} />;
+                        } else {
+                          return null;
+                        }
+                      });
+                    }}
+                  </ProductConsumer>
+                </div>
+              </div>
+            </div>
+
+            <div id="nin-ent-sys" className="py-5">
+              <div className="container">
+                <Title name="Nintendo Entertainment System" title=" Games" />
+
+                <div className="row">
+                  <ProductConsumer>
+                    {value => {
+                      return value.products.map(product => {
+                        if (product.id >= 350 && product.id < 400) {
+                          return <Product key={product.id} product={product} />;
+                        } else {
+                          return null;
+                        }
+                      });
+                    }}
+                  </ProductConsumer>
+                </div>
+              </div>
+            </div>
+
+            <div id="nin-gamecube" className="py-5">
+              <div className="container">
+                <Title name="Nintendo Gamecube" title=" Games" />
+
+                <div className="row">
+                  <ProductConsumer>
+                    {value => {
+                      return value.products.map(product => {
+                        if (product.id >= 400 && product.id < 450) {
+                          return <Product key={product.id} product={product} />;
+                        } else {
+                          return null;
+                        }
+                      });
+                    }}
+                  </ProductConsumer>
+                </div>
+              </div>
+            </div>
+
+            <div id="nin-64" className="py-5">
+              <div className="container">
+                <Title name="Nintendo 64" title=" Games" />
+
+                <div className="row">
+                  <ProductConsumer>
+                    {value => {
+                      return value.products.map(product => {
+                        if (product.id >= 450 && product.id < 500) {
+                          return <Product key={product.id} product={product} />;
+                        } else {
+                          return null;
+                        }
+                      });
+                    }}
+                  </ProductConsumer>
+                </div>
+              </div>
+            </div>
+
+            <div id="nin-famicom" className="py-5">
+              <div className="container">
+                <Title name="Nintendo Famicom" title=" Games" />
+
+                <div className="row">
+                  <ProductConsumer>
+                    {value => {
+                      return value.products.map(product => {
+                        if (product.id >= 500 && product.id < 550) {
+                          return <Product key={product.id} product={product} />;
+                        } else {
+                          return null;
+                        }
+                      });
+                    }}
+                  </ProductConsumer>
+                </div>
+              </div>
+            </div>
+
+            <div id="nin-wii" className="py-5">
+              <div className="container">
+                <Title name="Nintendo Wii" title=" Games" />
+
+                <div className="row">
+                  <ProductConsumer>
+                    {value => {
+                      return value.products.map(product => {
+                        if (product.id >= 550 && product.id < 600) {
+                          return <Product key={product.id} product={product} />;
+                        } else {
+                          return null;
+                        }
+                      });
+                    }}
+                  </ProductConsumer>
+                </div>
               </div>
             </div>
           </div>
-
-          <div id="nin-ent-sys" className="py-5">
-            <div className="container">
-              <Title name="Nintendo Entertainment System" title=" Games" />
-
-              <div className="row">
-                <ProductConsumer>
-                  {value => {
-                    return value.products.map(product => {
-                      if (product.id >= 350 && product.id < 400) {
-                        return <Product key={product.id} product={product} />;
-                      } else {
-                        return null;
-                      }
-                    });
-                  }}
-                </ProductConsumer>
-              </div>
-            </div>
-          </div>
-
-          <div id="nin-gamecube" className="py-5">
-            <div className="container">
-              <Title name="Nintendo Gamecube" title=" Games" />
-
-              <div className="row">
-                <ProductConsumer>
-                  {value => {
-                    return value.products.map(product => {
-                      if (product.id >= 400 && product.id < 450) {
-                        return <Product key={product.id} product={product} />;
-                      } else {
-                        return null;
-                      }
-                    });
-                  }}
-                </ProductConsumer>
-              </div>
-            </div>
-          </div>
-
-          <div id="nin-64" className="py-5">
-            <div className="container">
-              <Title name="Nintendo 64" title=" Games" />
-
-              <div className="row">
-                <ProductConsumer>
-                  {value => {
-                    return value.products.map(product => {
-                      if (product.id >= 450 && product.id < 500) {
-                        return <Product key={product.id} product={product} />;
-                      } else {
-                        return null;
-                      }
-                    });
-                  }}
-                </ProductConsumer>
-              </div>
-            </div>
-          </div>
-
-          <div id="nin-famicom" className="py-5">
-            <div className="container">
-              <Title name="Nintendo Famicom" title=" Games" />
-
-              <div className="row">
-                <ProductConsumer>
-                  {value => {
-                    return value.products.map(product => {
-                      if (product.id >= 500 && product.id < 550) {
-                        return <Product key={product.id} product={product} />;
-                      } else {
-                        return null;
-                      }
-                    });
-                  }}
-                </ProductConsumer>
-              </div>
-            </div>
-          </div>
-
-          <div id="nin-wii" className="py-5">
-            <div className="container">
-              <Title name="Nintendo Wii" title=" Games" />
-
-              <div className="row">
-                <ProductConsumer>
-                  {value => {
-                    return value.products.map(product => {
-                      if (product.id >= 550 && product.id < 600) {
-                        return <Product key={product.id} product={product} />;
-                      } else {
-                        return null;
-                      }
-                    });
-                  }}
-                </ProductConsumer>
-              </div>
-            </div>
-          </div>
-        </div>
-      </NintendoGamesWrapper>
+        </NintendoGamesWrapper>
+        <ButtonToTop />
+      </React.Fragment>
     );
   }
 }
