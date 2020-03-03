@@ -12,7 +12,6 @@ export default class Search extends Component {
 
           return (
             <div>
-              {/* this is new and we are here */}
               <SearchWrapper>
                 <input
                   className="form-control"
