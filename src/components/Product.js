@@ -14,13 +14,18 @@ export default class Product extends Component {
       <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
         <div className="card">
           <ProductConsumer>
-            {value => (
+            {(value) => (
               <div
                 className="img-container p-5"
                 onClick={() => value.handleDetail(id)} //click on any product in the product list for details.
               >
                 <Link to="/details">
-                  <img src={img} alt="product" className="card-img-top" />
+                  <img
+                    src={img}
+                    alt="product"
+                    className="card-img-top"
+                    style={{ maxWidth: "300" }}
+                  />
                 </Link>
                 <button
                   className="cart-btn"
@@ -64,8 +69,8 @@ Product.propTypes = {
     img: PropTypes.string,
     title: PropTypes.string,
     price: PropTypes.number,
-    inCart: PropTypes.bool
-  }).isRequired
+    inCart: PropTypes.bool,
+  }).isRequired,
 };
 
 /*our img folder is sitting right next to the index.html file, 
