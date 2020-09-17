@@ -9,7 +9,7 @@ export default class Modal extends Component {
     //We import the context and wrap our component with it which injects the context argument in the component.
     return (
       <ProductConsumer>
-        {value => {
+        {(value) => {
           const { modalOpen, closeModal } = value;
           const { img, title, price } = value.modalProduct;
 
@@ -28,10 +28,6 @@ export default class Modal extends Component {
                       <img src={img} className="img-fluid" alt="product" />
                       <h5>{title}</h5>
                       <h5 className="text-muted">price : $ {price}</h5>
-                      {/* If you have an about or information home page you would
-                      need to guide the link back to the products page to
-                      continue shopping but here the products page is the home
-                      page or / */}
                       <Link to="/">
                         <ButtonContainer onClick={() => closeModal()}>
                           home

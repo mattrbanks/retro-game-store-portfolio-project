@@ -14,7 +14,7 @@ export default function CartItem({ item, value }) {
           alt="product"
         />
       </div>
-      {/* className="d-lg-none" is used to make product : or price : disappear on for larger screens to avoid redundancy. */}
+      {/* the className d-lg-none is used to make product : or price : disappear on for larger screens to avoid redundancy. */}
       <div className="col-10 mx-auto col-lg-2">
         <span className="d-lg-none">product : </span>
         {title}

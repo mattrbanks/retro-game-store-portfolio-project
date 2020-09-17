@@ -20,7 +20,7 @@ class ProductProvider extends Component {
     cartTax: 0,
     cartTotal: 0,
     searchResults: [], //resulting search object to render in SearchUserResults
-    search: "" //input from user
+    search: "", //input from user
   };
 
   /*we don't want our original data object reference to change so we handle the state this way with copies.*/
@@ -31,7 +31,7 @@ class ProductProvider extends Component {
 
   setProducts = () => {
     let tempProducts = [];
-    storeProducts.forEach(item => {
+    storeProducts.forEach((item) => {
       const singleItem = { ...item };
       tempProducts = [...tempProducts, singleItem];
     });
@@ -41,19 +41,19 @@ class ProductProvider extends Component {
   };
 
   /* utility method that gets the item according to id */
-  getItem = id => {
-    const product = this.state.products.find(item => item.id === id);
+  getItem = (id) => {
+    const product = this.state.products.find((item) => item.id === id);
     return product;
   };
 
-  handleDetail = id => {
+  handleDetail = (id) => {
     const product = this.getItem(id);
     this.setState(() => {
       return { detailProduct: product }; //detailProduct can transform into any of the products that we grab by id with getItem in order to render a detail page for any product in our data objects.
     });
   };
 
-  addToCart = id => {
+  addToCart = (id) => {
     let tempProducts = [...this.state.products];
     /* we use index instead of find here because we want the product to display back in the same position on the products page after it is added to the cart. With .find the product would be moved around on the product page I guess. */
     /* We reuse the getItem utility method here to get the index using the id of the desired product. */
@@ -72,12 +72,11 @@ class ProductProvider extends Component {
       () => {
         //This callback function runs immediately after adding stuff to cart.
         this.addTotals();
-        //console.log(this.state);
       }
     );
   };
 
-  openModal = id => {
+  openModal = (id) => {
     const product = this.getItem(id);
     this.setState(() => {
       return { modalProduct: product, modalOpen: true };
@@ -91,9 +90,9 @@ class ProductProvider extends Component {
   };
 
   //While creating components and methods that will be available to the components, we can use console logs as placeholders to test functionality. This avoids having to go back and forth a lot.
-  increment = id => {
+  increment = (id) => {
     let tempCart = [...this.state.cart];
-    const selectedProduct = tempCart.find(item => item.id === id);
+    const selectedProduct = tempCart.find((item) => item.id === id);
 
     const index = tempCart.indexOf(selectedProduct); //We need the specific index location of the item in the tempCart.
     const product = tempCart[index]; //We use the index to find the specific product.
@@ -111,10 +110,10 @@ class ProductProvider extends Component {
     );
   };
 
-  decrement = id => {
+  decrement = (id) => {
     //increment and decrement could be one method to avoid repeating these four lines of code again but that is what we did here. This is not considered best practice, however.
     let tempCart = [...this.state.cart];
-    const selectedProduct = tempCart.find(item => item.id === id);
+    const selectedProduct = tempCart.find((item) => item.id === id);
 
     const index = tempCart.indexOf(selectedProduct); //We need the specific index location of the item in the tempCart.
     const product = tempCart[index]; //We use the index to find the specific product.
@@ -137,11 +136,11 @@ class ProductProvider extends Component {
   };
 
   /* This entire method runs after you click the trash can icon in the cart.  */
-  removeItem = id => {
+  removeItem = (id) => {
     let tempProducts = [...this.state.products]; //I believe these variables are re-declared and re-useable because of scope.
     let tempCart = [...this.state.cart];
 
-    tempCart = tempCart.filter(item => item.id !== id); //tempCart = everything in the cart but the single item you remove.
+    tempCart = tempCart.filter((item) => item.id !== id); //tempCart = everything in the cart but the single item you remove.
 
     const index = tempProducts.indexOf(this.getItem(id));
     let removedProduct = tempProducts[index]; //Our removed item gets these values reset to nothing so it is removed from the cart along with removing totals.
@@ -154,7 +153,7 @@ class ProductProvider extends Component {
         return {
           //The state is refreshed with the remaining items.
           cart: [...tempCart],
-          products: [...tempProducts]
+          products: [...tempProducts],
         };
       },
       () => {
@@ -179,7 +178,7 @@ class ProductProvider extends Component {
 
   addTotals = () => {
     let subTotal = 0;
-    this.state.cart.map(item => (subTotal += item.total));
+    this.state.cart.map((item) => (subTotal += item.total));
     const tempTax = subTotal * 0.0725; /* 7.25% tax */
     const tax = parseFloat(tempTax.toFixed(2));
     const total = subTotal + tax;
@@ -187,20 +186,20 @@ class ProductProvider extends Component {
       return {
         cartSubTotal: subTotal,
         cartTax: tax,
-        cartTotal: total
+        cartTotal: total,
       };
     });
   };
 
   //handleChange
-  updateSearch = event => {
+  updateSearch = (event) => {
     this.setState({ search: event.target.value.substr(0, 20) });
   };
 
   searchFilter = () => {
     let tempProducts = [...this.state.products];
     let tempSearchResults = [];
-    tempProducts.filter(item => {
+    tempProducts.filter((item) => {
       if (
         item.title.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1
       ) {
@@ -219,15 +218,14 @@ class ProductProvider extends Component {
       this.setState(() => {
         return { searchResults: [...tempSearchResults] };
       });
-    }); // I am here. Need to reset searchResults for the next search.
-    // return { searchResults: [] };
+    }); //Need to reset searchResults for the next search.
   };
 
-  enterKeyPressed = event => {
+  enterKeyPressed = (event) => {
     let tempProducts = [...this.state.products];
     let tempSearchResults = [];
     if (event.key === "Enter") {
-      tempProducts.filter(item => {
+      tempProducts.filter((item) => {
         if (
           item.title.toLowerCase().indexOf(this.state.search.toLowerCase()) !==
           -1
@@ -249,8 +247,7 @@ class ProductProvider extends Component {
         this.setState(() => {
           return { searchResults: [...tempSearchResults] };
         });
-      }); // I am here. Need to reset searchResults for the next search.
-      // return { searchResults: [] };
+      }); //Need to reset searchResults for the next search.
     }
     if (event.key === "Enter") {
       document.getElementById("search-btn").click();
@@ -260,18 +257,14 @@ class ProductProvider extends Component {
   scrollSmooth = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   };
 
   render() {
-    console.log(this.state.searchResults);
-    //console.log(this.state.searchResults);
-    console.log(this.state.search);
-    //console.log(this.prevBtnCarousel());
-    //console.log(this); /* ProductProvider is this. */
+    //If you do a console.log for this, ProductProvider is this.
     //The value in Context.Provider can be anything, even an object. We are using this.anyMethodName but we could also put the whole method in value as well.
-    //Here we are using destructuring so study that more.
+    //Here we are using destructuring.
     //We are sharing ...this.state along with our methods that manipulate the state. We can think of these methods as reducers in Redux.
     return (
       <ProductContext.Provider
@@ -289,7 +282,7 @@ class ProductProvider extends Component {
           updateSearch: this.updateSearch,
           enterKeyPressed: this.enterKeyPressed,
           handleEnterKeyRoute: this.handleEnterKeyRoute,
-          scrollSmooth: this.scrollSmooth
+          scrollSmooth: this.scrollSmooth,
         }}
       >
         {this.props.children}

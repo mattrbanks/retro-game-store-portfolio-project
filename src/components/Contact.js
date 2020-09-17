@@ -34,7 +34,7 @@ export default class Contact extends Component {
               id="profile-link"
               href="https://github.com/mattrbanks"
               target="_blank"
-              className=""
+              rel="noopener noreferrer"
             >
               <i
                 id="git-hub-icon"
@@ -47,7 +47,7 @@ export default class Contact extends Component {
               id="profile-link"
               href="https://www.linkedin.com/in/matthewr-banks"
               target="_blank"
-              className=""
+              rel="noopener noreferrer"
             >
               <i id="linkedin-icon" className="fab fa-linkedin icon col"></i>
             </a>
@@ -57,7 +57,7 @@ export default class Contact extends Component {
               id="profile-link"
               href="mailto:banks.matt81@gmail.com"
               target="_blank"
-              className=""
+              rel="noopener noreferrer"
             >
               <i
                 id="email-icon"
@@ -70,7 +70,7 @@ export default class Contact extends Component {
               id="profile-link"
               href="mailto:banks.matt81@gmail.com"
               target="_blank"
-              className=""
+              rel="noopener noreferrer"
             >
               <i id="resume-icon" className="fas fa-file icon col"></i>
             </a>

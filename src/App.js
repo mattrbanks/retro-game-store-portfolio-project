@@ -17,8 +17,6 @@ import SearchUserResults from "./components/SearchUserResults";
 
 class App extends Component {
   render() {
-    //We can get rid of the state and the methods here because they are now defined in Context.js. We are providing these globally through the context api.
-    //Here we are using react router for page navigation. React Router is a collection of navigational components that compose declaratively with your application.
     return (
       <React.Fragment>
         <Navbar />

@@ -33,7 +33,6 @@ export default class Search extends Component {
                   </button>
                 </Link>
               </SearchWrapper>
-              {/* <input type="text" value={value} onChange={this.handleChange} /> */}
             </div>
           );
         }}
