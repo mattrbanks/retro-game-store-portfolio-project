@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img width="50%" src="https://github.com/mattrbanks/professional-portfolio/blob/master/src/images/MattsRetroGames.PNG?raw=true" alt="Screenshot of game store home page"></p>
 
-## Available Scripts
+## Matt's Retro Games
 
-In the project directory, you can run:
+I had a lot of fun with this project because these are many of my favorite retro games. This is like a tribute to games that I am nostalgic for but in the form of a retro game store. I used a real price guide to price each game so they should be very accurately priced in my store. This store template has all the hallmarks of an e-commerce website and it utilizes a sandbox PayPal that can be activated in the future to handle real transactions. I won't be parting with my collection though.
 
-### `npm start`
+### Technologies Used
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Javascript
 
-### `npm test`
+- Bootstrap
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Styled components
 
-### `npm run build`
+- PayPal
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React router
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### PayPal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The PayPalButton component renders PayPal's express check out button. In this case it is a sandbox PayPal environment which can give receipts for fake purchases through a testing sandbox account on https://developer.paypal.com/home/ but the account can be made live at any time by switching the sandbox client id for a production client id.
 
-### `npm run eject`
+### Store Features
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Search bar to find games and consoles faster
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Game product pages for Sega, Nintendo, and Playstation retro games
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- A list of retro consoles on the landing page
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Detail page for each product you click
 
-## Learn More
+- Multiple ways to add items to the cart
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Cart checkout with tax (USA) and ability to buy multiple copies of one product, clear cart, or delete one item at a time
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Easy navigation
 
-### Code Splitting
+### Visit the website:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[matts-retro-games.netlify.app](https://matts-retro-games.netlify.app/)
