@@ -1,4 +1,4 @@
-<p align="center"><img width="50%" src="https://github.com/mattrbanks/professional-portfolio/blob/master/src/images/MattsRetroGames.PNG?raw=true" alt="Screenshot of game store home page"></p>
+<p align="center"><img width="75%" src="https://github.com/mattrbanks/professional-portfolio/blob/master/src/images/MattsRetroGames.PNG?raw=true" alt="Screenshot of game store home page"></p>
 
 ## Matt's Retro Games
 
